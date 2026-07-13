@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded datasets (regenerate with scripts/generate_airports.py --fetch)
+data/cache/
+
+# Obsidian per-machine state (committed config lives in vault/.obsidian/*.json)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/plugins/
+vault/.obsidian/cache/
