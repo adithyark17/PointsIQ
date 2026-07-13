@@ -1,0 +1,255 @@
+# Airlines — node type: airline
+# `hubs` are IATA codes; the airport generator adds hub_for backlinks on those airport notes.
+# `country` must match an OurAirports country name (validated by scripts/validate.py).
+airlines:
+  # ── Indian carriers ──────────────────────────────────────────────
+  - name: Air India
+    iata: AI
+    country: India
+    alliance: Star Alliance
+    program: Air India Maharaja Club
+    hubs: [DEL, BOM]
+    status: active
+  - name: Air India Express
+    iata: IX
+    country: India
+    program: Air India Maharaja Club
+    hubs: [DEL, CCJ, CNN]
+    status: active
+    notes: Low-cost arm of Air India; earns into Maharaja Club post-merger.
+  - name: Vistara
+    iata: UK
+    country: India
+    program: Club Vistara
+    hubs: [DEL]
+    status: merged
+    notes: Merged into Air India (November 2024). Club Vistara balances moved to Maharaja Club.
+  - name: IndiGo
+    iata: 6E
+    country: India
+    program: IndiGo BluChips
+    hubs: [DEL, BOM, BLR, HYD]
+    status: active
+  - name: Akasa Air
+    iata: QP
+    country: India
+    hubs: [BOM, BLR]
+    status: active
+  - name: SpiceJet
+    iata: SG
+    country: India
+    hubs: [DEL, HYD]
+    status: active
+
+  # ── Star Alliance ────────────────────────────────────────────────
+  - name: Singapore Airlines
+    iata: SQ
+    country: Singapore
+    alliance: Star Alliance
+    program: Singapore Airlines KrisFlyer
+    hubs: [SIN]
+  - name: United Airlines
+    iata: UA
+    country: United States
+    alliance: Star Alliance
+    program: United MileagePlus
+    hubs: [ORD, EWR, SFO, IAH, DEN]
+  - name: Air Canada
+    iata: AC
+    country: Canada
+    alliance: Star Alliance
+    program: Aeroplan
+    hubs: [YYZ, YVR, YUL]
+  - name: Turkish Airlines
+    iata: TK
+    country: Turkey
+    alliance: Star Alliance
+    program: Turkish Miles&Smiles
+    hubs: [IST]
+  - name: Thai Airways
+    iata: TG
+    country: Thailand
+    alliance: Star Alliance
+    program: Thai Royal Orchid Plus
+    hubs: [BKK]
+  - name: ANA
+    iata: NH
+    country: Japan
+    alliance: Star Alliance
+    program: ANA Mileage Club
+    hubs: [HND, NRT]
+  - name: Lufthansa
+    iata: LH
+    country: Germany
+    alliance: Star Alliance
+    program: Miles & More
+    hubs: [FRA, MUC]
+  - name: Swiss
+    iata: LX
+    country: Switzerland
+    alliance: Star Alliance
+    program: Miles & More
+    hubs: [ZRH]
+  - name: Austrian Airlines
+    iata: OS
+    country: Austria
+    alliance: Star Alliance
+    program: Miles & More
+    hubs: [VIE]
+  - name: EVA Air
+    iata: BR
+    country: Taiwan
+    alliance: Star Alliance
+    program: EVA Infinity MileageLands
+    hubs: [TPE]
+  - name: Ethiopian Airlines
+    iata: ET
+    country: Ethiopia
+    alliance: Star Alliance
+    program: Ethiopian ShebaMiles
+    hubs: [ADD]
+  - name: Aegean Airlines
+    iata: A3
+    country: Greece
+    alliance: Star Alliance
+    program: Aegean Miles+Bonus
+    hubs: [ATH]
+
+  # ── oneworld ─────────────────────────────────────────────────────
+  - name: British Airways
+    iata: BA
+    country: United Kingdom
+    alliance: oneworld
+    program: British Airways Executive Club
+    hubs: [LHR, LGW]
+  - name: Qatar Airways
+    iata: QR
+    country: Qatar
+    alliance: oneworld
+    program: Qatar Airways Privilege Club
+    hubs: [DOH]
+  - name: Cathay Pacific
+    iata: CX
+    country: Hong Kong
+    alliance: oneworld
+    program: Cathay (Asia Miles)
+    hubs: [HKG]
+  - name: Qantas
+    iata: QF
+    country: Australia
+    alliance: oneworld
+    program: Qantas Frequent Flyer
+    hubs: [SYD, MEL]
+  - name: Japan Airlines
+    iata: JL
+    country: Japan
+    alliance: oneworld
+    program: JAL Mileage Bank
+    hubs: [HND, NRT]
+  - name: American Airlines
+    iata: AA
+    country: United States
+    alliance: oneworld
+    program: American AAdvantage
+    hubs: [DFW, CLT, MIA]
+  - name: Alaska Airlines
+    iata: AS
+    country: United States
+    alliance: oneworld
+    program: Alaska Mileage Plan
+    hubs: [SEA]
+  - name: Malaysia Airlines
+    iata: MH
+    country: Malaysia
+    alliance: oneworld
+    program: Malaysia Airlines Enrich
+    hubs: [KUL]
+  - name: SriLankan Airlines
+    iata: UL
+    country: Sri Lanka
+    alliance: oneworld
+    program: SriLankan FlySmiLes
+    hubs: [CMB]
+  - name: Iberia
+    iata: IB
+    country: Spain
+    alliance: oneworld
+    program: Iberia Plus
+    hubs: [MAD]
+  - name: Finnair
+    iata: AY
+    country: Finland
+    alliance: oneworld
+    program: Finnair Plus
+    hubs: [HEL]
+  - name: Oman Air
+    iata: WY
+    country: Oman
+    alliance: oneworld
+    program: Oman Air Sindbad
+    hubs: [MCT]
+
+  # ── SkyTeam ──────────────────────────────────────────────────────
+  - name: Air France
+    iata: AF
+    country: France
+    alliance: SkyTeam
+    program: Flying Blue
+    hubs: [CDG]
+  - name: KLM
+    iata: KL
+    country: Netherlands
+    alliance: SkyTeam
+    program: Flying Blue
+    hubs: [AMS]
+  - name: Delta Air Lines
+    iata: DL
+    country: United States
+    alliance: SkyTeam
+    program: Delta SkyMiles
+    hubs: [ATL, DTW, MSP]
+  - name: Virgin Atlantic
+    iata: VS
+    country: United Kingdom
+    alliance: SkyTeam
+    program: Virgin Atlantic Flying Club
+    hubs: [LHR]
+  - name: Vietnam Airlines
+    iata: VN
+    country: Vietnam
+    alliance: SkyTeam
+    program: Vietnam Airlines Lotusmiles
+    hubs: [HAN, SGN]
+  - name: Saudia
+    iata: SV
+    country: Saudi Arabia
+    alliance: SkyTeam
+    program: Saudia AlFursan
+    hubs: [JED, RUH]
+
+  # ── Unaligned ────────────────────────────────────────────────────
+  - name: Emirates
+    iata: EK
+    country: United Arab Emirates
+    program: Emirates Skywards
+    hubs: [DXB]
+  - name: Etihad Airways
+    iata: EY
+    country: United Arab Emirates
+    program: Etihad Guest
+    hubs: [AUH]
+  - name: Gulf Air
+    iata: GF
+    country: Bahrain
+    program: Gulf Air Falconflyer
+    hubs: [BAH]
+  - name: Aer Lingus
+    iata: EI
+    country: Ireland
+    program: AerClub
+    hubs: [DUB]
+  - name: Hainan Airlines
+    iata: HU
+    country: China
+    program: Fortune Wings Club
+    hubs: [HAK, PEK]

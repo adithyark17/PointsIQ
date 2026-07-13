@@ -1,0 +1,34 @@
+name: Air India Maharaja Club Chart
+program: Air India Maharaja Club
+model: hybrid
+last_verified: 2026-01
+disclaimer: Post-merger program still stabilising; domestic levels observed, international semi-dynamic.
+rows:
+  - route: Domestic short (e.g. DEL→BOM)
+    links: [DEL, BOM]
+    economy: 8000
+    business: 20000
+  - route: Domestic long (e.g. DEL→BLR/MAA)
+    links: [DEL, BLR]
+    economy: 10000
+    business: 25000
+  - route: India → Gulf
+    links: [BOM, DXB]
+    economy: 15000
+    business: 35000
+  - route: India → Europe
+    links: [DEL, LHR]
+    economy: 35000
+    business: 80000
+  - route: India → North America (nonstop)
+    links: [DEL, JFK, YYZ]
+    economy: 50000
+    business: 115000
+sweet_spots:
+  - title: The 1:1 workhorse
+    body: >-
+      Maharaja Points are the only terminal currency most Indian banks reach at 1:1
+      ([[HDFC Reward Points]], [[Axis EDGE Miles]], [[American Express Membership Rewards India]],
+      [[ICICI Reward Points]]) — making Air India nonstops to [[JFK]]/[[YYZ]]/[[LHR]]
+      the highest-floor redemption in the Indian ecosystem. Also bookable across
+      [[Star Alliance]] partners.

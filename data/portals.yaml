@@ -1,0 +1,28 @@
+# Bank earn/redemption portals — node type: portal
+portals:
+  - name: SmartBuy
+    bank: HDFC Bank
+    kind: earn + redemption
+    notes: >-
+      HDFC's multiplier engine — up to 10x points on flights/hotels/vouchers, and the
+      gateway for HDFC airmile transfers. Monthly bonus-point caps per card tier.
+  - name: Axis Travel Edge
+    bank: Axis Bank
+    kind: earn + redemption
+    notes: 5x accelerated travel earn for Magnus/Atlas and the EDGE Miles redemption storefront.
+  - name: Axis GrabDeals
+    bank: Axis Bank
+    kind: earn
+    notes: Affiliate cashback/points portal for online shopping.
+  - name: Amex Reward Multiplier
+    bank: American Express India
+    kind: earn
+    notes: 2-5x MR on vouchers and partner brands; core MRCC/Gold accumulation route.
+  - name: ICICI iShop
+    bank: ICICI Bank
+    kind: earn + redemption
+    notes: Up to 6x earn and ₹1/point redemptions on flights/hotels for premium ICICI cards.
+  - name: SBI Card Travel
+    bank: SBI Card
+    kind: redemption
+    notes: Cleartrip-powered portal where SBI points redeem at ~₹0.25-0.50.

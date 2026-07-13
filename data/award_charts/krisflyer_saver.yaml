@@ -1,0 +1,44 @@
+name: KrisFlyer Saver Chart
+program: Singapore Airlines KrisFlyer
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way Saver levels on SQ metal; verify on singaporeair.com before transferring.
+rows:
+  - route: India → Singapore
+    links: [India, Singapore, SIN]
+    economy: 16000
+    business: 30500
+    first: null
+  - route: India → Southeast Asia (via SIN)
+    links: [India, Thailand, BKK]
+    economy: 21000
+    business: 39000
+    first: null
+  - route: India → Japan / Korea (via SIN)
+    links: [India, Japan, HND]
+    economy: 29500
+    business: 61500
+    first: null
+  - route: India → Australia (via SIN)
+    links: [India, Australia, SYD]
+    economy: 31500
+    business: 65500
+    first: null
+  - route: India → Europe (via SIN)
+    links: [India, United Kingdom, LHR]
+    economy: 49000
+    business: 103500
+    first: 132000
+  - route: India → USA (via SIN)
+    links: [India, United States, JFK]
+    economy: 60000
+    business: 120500
+    first: 148500
+sweet_spots:
+  - title: BLR/BOM/DEL → SIN in Business
+    body: >-
+      ~30,500 miles one-way in SQ J — reachable as ~30,500 [[Axis EDGE Miles]] (1:1)
+      or ~61,000 [[HDFC Reward Points]] (2:1). Cash fare on this route regularly
+      exceeds ₹60,000, putting realised value well above ₹1.5/point.
+  - title: Round-trip Saver includes a stopover
+    body: See [[Stopover]] — add Singapore days to any onward award for free.

@@ -1,0 +1,32 @@
+name: British Airways Avios Distance Chart
+program: British Airways Executive Club
+model: distance
+last_verified: 2026-01
+disclaimer: Approximate off-peak partner one-way Economy levels per segment; BA revises bands regularly.
+rows:
+  - route: Zone 1 · up to 650 miles
+    links: [MAA, CMB]
+    economy: 6000
+    business: 12500
+  - route: Zone 2 · 651-1,151 miles (e.g. BOM→DXB)
+    links: [BOM, DXB]
+    economy: 9000
+    business: 18000
+  - route: Zone 3 · 1,152-2,000 miles (e.g. DEL→BKK)
+    links: [DEL, BKK]
+    economy: 11000
+    business: 22000
+  - route: Zone 4 · 2,001-3,000 miles (e.g. BOM→HKG)
+    links: [BOM, HKG]
+    economy: 13000
+    business: 25750
+  - route: Zone 5 · 3,001-4,000 miles (e.g. DEL→LHR is Zone 6; BOM→SIN sits lower)
+    links: [DEL, LHR]
+    economy: 20750
+    business: 41250
+sweet_spots:
+  - title: Short partner hops from India
+    body: >-
+      Distance pricing makes BOM→DXB or MAA→CMB on oneworld partners among the
+      cheapest awards bookable with Indian currencies — see [[Qatar Airways Privilege Club]]
+      for the same Avios at DOH connections. Watch [[Fuel Surcharge (YQ)]] on BA metal.

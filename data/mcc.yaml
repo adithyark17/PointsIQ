@@ -1,0 +1,56 @@
+# Spend categories keyed by Merchant Category Codes — node type: mcc-category
+categories:
+  - name: Dining
+    mcc_codes: [5812, 5813, 5814]
+    typically_excluded: false
+  - name: Grocery
+    mcc_codes: [5411, 5422, 5451, 5462]
+    typically_excluded: false
+  - name: Fuel
+    mcc_codes: [5541, 5542, 5983]
+    typically_excluded: true
+    notes: Excluded from rewards on nearly every Indian card; 1% surcharge waiver instead.
+  - name: Travel - Airlines
+    mcc_codes: [3000-3350, 4511]
+    typically_excluded: false
+  - name: Travel - Hotels
+    mcc_codes: [3501-3999, 7011]
+    typically_excluded: false
+  - name: Utilities
+    mcc_codes: [4900, 4814, 4816]
+    typically_excluded: true
+    notes: Capped or excluded on most premium cards since the 2023-24 devaluation wave.
+  - name: Insurance
+    mcc_codes: [6300, 5960]
+    typically_excluded: true
+  - name: Education
+    mcc_codes: [8211, 8220, 8241, 8244, 8249]
+    typically_excluded: true
+    notes: Often capped; third-party fee platforms usually excluded outright.
+  - name: Government & Tax
+    mcc_codes: [9311, 9222, 9399]
+    typically_excluded: true
+  - name: Rent
+    mcc_codes: [6513]
+    typically_excluded: true
+    notes: Universally excluded (and often fee-loaded) after the 2022-23 rent-platform boom.
+  - name: Telecom
+    mcc_codes: [4812, 4814]
+    typically_excluded: true
+  - name: Entertainment
+    mcc_codes: [7832, 7922, 7941, 7991]
+    typically_excluded: false
+  - name: Online Shopping
+    mcc_codes: [5399, 5964, 5969]
+    typically_excluded: false
+    notes: Where most accelerated-earn programs (Millennia, Regalia Gold partner brands) live.
+  - name: Jewellery
+    mcc_codes: [5944, 5094]
+    typically_excluded: true
+    notes: Excluded/capped on Magnus, Cashback and most high-earn cards.
+  - name: Wallet Loads
+    mcc_codes: [6540]
+    typically_excluded: true
+  - name: Healthcare
+    mcc_codes: [8011, 8062, 5912]
+    typically_excluded: false

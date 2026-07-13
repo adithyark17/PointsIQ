@@ -1,0 +1,101 @@
+# Glossary / concepts — node type: concept
+# `links` are wikilink targets woven into the generated body.
+concepts:
+  - name: Cents Per Point
+    aliases: [CPP, Paise Per Point]
+    summary: >-
+      The universal yardstick: redemption value ÷ points spent. In India, benchmark
+      against ~₹0.30 (statement credit floor) and ~₹1.00 (SmartBuy/iShop ceilings);
+      airline transfers only make sense above ₹1/point realised.
+    links: [SmartBuy, ICICI iShop, Devaluation]
+
+  - name: Transfer Bonus
+    summary: >-
+      A limited-time improvement on a transfer ratio (e.g. +25% into Avios). Bonuses
+      compound with cheap award charts — the single biggest lever on redemption value.
+    links: [British Airways Executive Club, Axis EDGE Miles]
+
+  - name: Milestone Benefit
+    summary: >-
+      Bonus points/vouchers unlocked at spend thresholds within an anniversary year —
+      the defining mechanic of Indian premium cards (Amex Platinum Travel's ₹1.9L/₹4L
+      gates, Atlas tiers, Magnus monthly milestone).
+    links: [Amex Platinum Travel, Axis Atlas, Axis Magnus, Fee Waiver]
+
+  - name: Fee Waiver
+    summary: >-
+      Annual-fee reversal at a spend threshold. Together with milestones it defines a
+      card's true annual cost — always compute both before renewal.
+    links: [Milestone Benefit]
+
+  - name: Devaluation
+    summary: >-
+      A program cutting point value — earn nerfs, ratio cuts, chart hikes, new caps.
+      Indian issuers devalue with little notice; points are a melting asset. Bank early,
+      redeem often.
+    links: [Axis Magnus, HDFC Reward Points]
+
+  - name: Fuel Surcharge (YQ)
+    summary: >-
+      Carrier-imposed cash charges on award tickets. High-YQ programs (BA, Turkish,
+      Emirates) can add ₹20-60K to a "free" ticket; no-YQ programs (Aeroplan, United,
+      AAdvantage) price honestly.
+    links: [Aeroplan, United MileagePlus, British Airways Executive Club]
+
+  - name: Sweet Spot
+    summary: >-
+      A route+program combination priced far below market — the payoff of knowing the
+      charts. Examples live on each award chart note.
+    links: [KrisFlyer Saver Chart, British Airways Avios Distance Chart]
+
+  - name: Points Expiry
+    summary: >-
+      Fixed-life (KrisFlyer 36 months) vs activity-based (Etihad 18 months) vs never
+      (United). Expiry policy should decide WHERE you park points, not just ratios.
+    links: [Singapore Airlines KrisFlyer, Etihad Guest]
+
+  - name: Merchant Category Code
+    summary: >-
+      The 4-digit code that decides what a swipe "is" — and therefore what it earns.
+      Every exclusion, cap and accelerator keys off MCC; miscoded merchants are why
+      expected points differ from credited points.
+    links: [Dining, Fuel, Rent]
+
+  - name: Reward Capping
+    summary: >-
+      Per-statement or per-month ceilings on earned points (SmartBuy bonus caps,
+      Magnus category caps, Cashback's ₹5,000/month). Caps convert headline rates into
+      effective rates — model them before routing spend.
+    links: [SmartBuy, Axis Magnus, SBI Cashback Card]
+
+  - name: Award Chart
+    summary: >-
+      A published points price-list by zone or distance. Charted programs (KrisFlyer,
+      Aeroplan, JAL) are plannable; dynamic programs price like cash. Charts here are
+      theoretical pricing — seats are a separate question.
+    links: [KrisFlyer Saver Chart, Aeroplan Zone Chart, Dynamic Pricing]
+
+  - name: Dynamic Pricing
+    summary: >-
+      Award prices pegged to cash fares (Flying Blue, United, SkyMiles, IndiGo
+      BluChips). Kills chart arbitrage but enables cheap off-peak awards — watch promos.
+    links: [Flying Blue, Award Chart]
+
+  - name: Minimum Redemption
+    summary: >-
+      Floors and blocks on moving/redeeming points (minimum transfer blocks, portal
+      minimums). Small balances below the floor are functionally worthless — plan
+      accumulation to clear it.
+    links: [Cents Per Point]
+
+  - name: Open-Jaw
+    summary: >-
+      Award itinerary arriving in one city and departing another (BOM→SIN, BKK→BOM).
+      Zone-priced charts often allow it free — two trips for one award.
+    links: [Aeroplan Zone Chart]
+
+  - name: Stopover
+    summary: >-
+      A stop >24h on an award. Aeroplan sells one for 5,000 points; KrisFlyer includes
+      one on round-trip Saver — a second destination for near-zero cost.
+    links: [Aeroplan, Singapore Airlines KrisFlyer]
