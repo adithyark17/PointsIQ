@@ -1,0 +1,121 @@
+{
+  "collapse-filter": false,
+  "search": "-tag:#airport/medium -tag:#airport/small",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:cards",
+      "color": {
+        "a": 1,
+        "rgb": 14701901
+      }
+    },
+    {
+      "query": "path:currencies",
+      "color": {
+        "a": 1,
+        "rgb": 15901500
+      }
+    },
+    {
+      "query": "path:transfers",
+      "color": {
+        "a": 1,
+        "rgb": 15258701
+      }
+    },
+    {
+      "query": "path:\"programs/air\"",
+      "color": {
+        "a": 1,
+        "rgb": 5078496
+      }
+    },
+    {
+      "query": "path:\"programs/hotel\"",
+      "color": {
+        "a": 1,
+        "rgb": 10116576
+      }
+    },
+    {
+      "query": "path:airlines",
+      "color": {
+        "a": 1,
+        "rgb": 5096672
+      }
+    },
+    {
+      "query": "path:alliances",
+      "color": {
+        "a": 1,
+        "rgb": 15790320
+      }
+    },
+    {
+      "query": "path:banks",
+      "color": {
+        "a": 1,
+        "rgb": 14704026
+      }
+    },
+    {
+      "query": "path:mcc",
+      "color": {
+        "a": 1,
+        "rgb": 6143842
+      }
+    },
+    {
+      "query": "path:portals",
+      "color": {
+        "a": 1,
+        "rgb": 12116061
+      }
+    },
+    {
+      "query": "path:award-charts",
+      "color": {
+        "a": 1,
+        "rgb": 12876512
+      }
+    },
+    {
+      "query": "path:concepts",
+      "color": {
+        "a": 1,
+        "rgb": 11579532
+      }
+    },
+    {
+      "query": "path:geo",
+      "color": {
+        "a": 1,
+        "rgb": 3979432
+      }
+    },
+    {
+      "query": "path:airports",
+      "color": {
+        "a": 1,
+        "rgb": 8026746
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.3,
+  "close": false
+}
