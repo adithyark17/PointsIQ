@@ -18,6 +18,6 @@ last_verified: 2026-01
 
 ## Sweet spot: Promo Rewards months
 
-Monthly Promo Rewards discount specific gateways 25-50%. When BOM/DEL/BLR appear, Europe J drops to ~52,500 miles — feed 1:1 from [[Axis EDGE Miles]] or [[HSBC Reward Points]] and book inside the promo window. Watch moderate [[Fuel Surcharge (YQ)]].
+Monthly Promo Rewards discount specific gateways 25-50%. When BOM/DEL/BLR appear, Europe J drops to ~52,500 miles — feed 1:2 from [[Axis EDGE Miles]] (Group B) or 1:1 from [[HSBC Reward Points]] and book inside the promo window. Watch moderate [[Fuel Surcharge (YQ)]].
 
 <!-- generated: edits above this line will be overwritten -->

@@ -1,0 +1,24 @@
+name: Turkish Miles&Smiles Chart
+program: Turkish Miles&Smiles
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way partner/own-metal levels from India; booking IT and YQ are the tax.
+rows:
+  - route: India → Istanbul
+    links: [DEL, IST]
+    economy: 22500
+    business: 45000
+  - route: India → Europe (via IST)
+    links: [BOM, Germany, FRA]
+    economy: 30000
+    business: 52500
+  - route: India → USA (via IST)
+    links: [DEL, United States, JFK]
+    economy: 40000
+    business: 67500
+sweet_spots:
+  - title: Cheapest paper-price J to the USA
+    body: >-
+      ~67,500 miles India→USA in Business is among the lowest published rates anywhere —
+      soften the high [[Fuel Surcharge (YQ)]] with the free [[Turkish Airlines Stopover]]
+      hotel in Istanbul. Feed 1:2 from [[Axis EDGE Miles]] (Group A).

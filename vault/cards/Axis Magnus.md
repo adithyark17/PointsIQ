@@ -31,7 +31,7 @@ milestones:
   benefit: 25,000 bonus EDGE Rewards (Burgundy variant)
 ---
 
-Post-2023 devaluations cut base earn and added heavy exclusions; milestone + transfers still carry it.
+Post-2023 devaluations cut base earn and added heavy exclusions; the April 2026 partner cull (Qatar/Marriott/Accor out) hit it again. Milestone + remaining transfers still carry it.
 
 ## Milestones
 

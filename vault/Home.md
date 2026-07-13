@@ -29,6 +29,12 @@ Every answer is a walk through this map. Start anywhere:
 - **[[Star Alliance]] · [[oneworld]] · [[SkyTeam]]**
 - Airports: `airports/<country>/` — ~6,400 nodes keyed by IATA code, e.g. **[[DEL]]**, **[[BOM]]**, **[[SIN]]**
 
+## Stopover programs
+
+- Break one award into two trips: `stopovers/` — free hotels at [[Turkish Airlines Stopover|IST]],
+  [[Discover Qatar Stopover|DOH ($14 hotels)]], [[Saudia Stopover Program|JED]]; free routing up to
+  10 days via [[TAP Portugal Stopover]] and [[Icelandair Stopover]]; see **[[Stopover]]** for the concept.
+
 ## Spend categories
 
 - MCC categories in `mcc/` — e.g. **[[Dining]]**, **[[Fuel]]**, **[[Rent]]** — link each category

@@ -17,6 +17,7 @@ lat: 25.0777
 lon: 121.233
 hub_for:
 - '[[EVA Air]]'
+- '[[China Airlines]]'
 ---
 
 Taiwan Taoyuan International Airport — Taoyuan, Taiwan.

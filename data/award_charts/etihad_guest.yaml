@@ -1,0 +1,24 @@
+name: Etihad Guest Chart
+program: Etihad Guest
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way GuestSeat levels on EY metal from India; verify on etihadguest.com.
+rows:
+  - route: India → Abu Dhabi
+    links: [India, AUH]
+    economy: 11000
+    business: 27000
+  - route: India → Europe (via AUH)
+    links: [DEL, United Kingdom, LHR]
+    economy: 31000
+    business: 75000
+  - route: India → USA East (via AUH)
+    links: [BOM, United States, JFK]
+    economy: 43000
+    business: 110000
+sweet_spots:
+  - title: Short Gulf hops + the stopover
+    body: >-
+      India→AUH J at ~27,000 miles pairs with the [[Etihad Stopover Abu Dhabi]] hotel
+      deal. Feed 1:2 from [[Axis EDGE Miles]] (Group A) for an effective ~13,500 EDGE
+      Miles in Business.

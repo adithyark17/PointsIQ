@@ -1,0 +1,20 @@
+name: United MileagePlus Observed Pricing
+program: United MileagePlus
+model: dynamic
+last_verified: 2026-01
+disclaimer: Dynamic — these are typical observed partner-saver floors from India, not a chart.
+rows:
+  - route: India → USA on Star partners (floor)
+    links: [DEL, United States, ORD]
+    economy: 44000
+    business: 88000
+  - route: India → Europe on Star partners (floor)
+    links: [BOM, Germany, FRA]
+    economy: 33000
+    business: 77000
+sweet_spots:
+  - title: No-YQ Star bookings with never-expiring miles
+    body: >-
+      United adds no [[Fuel Surcharge (YQ)]] on partners and miles never expire.
+      Reachable at 1:2 from [[Axis EDGE Miles]] (Group A) — 44,000 EDGE Miles ≈ an
+      88,000-mile Business seat to the USA.

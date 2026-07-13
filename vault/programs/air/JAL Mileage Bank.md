@@ -9,6 +9,7 @@ currency_name: JAL miles
 pricing_model: distance
 expiry: 36 months fixed
 fuel_surcharges: moderate
+award_chart: '[[JAL Distance Chart]]'
 ---
 
 Distance-based partner chart is one of aviation's best-value charts.

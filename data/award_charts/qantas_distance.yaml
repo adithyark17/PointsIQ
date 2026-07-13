@@ -1,0 +1,20 @@
+name: Qantas Classic Rewards Chart
+program: Qantas Frequent Flyer
+model: distance
+last_verified: 2026-01
+disclaimer: Approximate one-way Classic Reward levels by distance band.
+rows:
+  - route: 1,201-2,400 miles
+    links: [BOM, SIN]
+    economy: 18000
+    business: 41500
+  - route: 4,801-5,800 miles (India → Australia east)
+    links: [DEL, SYD]
+    economy: 31500
+    business: 68400
+sweet_spots:
+  - title: India → Australia without the cash fare
+    body: >-
+      Direct AI/QF routes price high in cash; Classic Rewards at ~68,400 points in J
+      are now reachable at 1:2 from [[Axis EDGE Miles]] (Group B) after the April 2026
+      partner addition.

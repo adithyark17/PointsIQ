@@ -15,6 +15,8 @@ size: large_airport
 scheduled_service: true
 lat: 38.7813
 lon: -9.1359
+hub_for:
+- '[[TAP Air Portugal]]'
 ---
 
 Lisbon Humberto Delgado Airport — Lisbon, Portugal.

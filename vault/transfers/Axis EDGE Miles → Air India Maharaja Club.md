@@ -4,15 +4,16 @@ tags:
 - transfer
 source: '[[Axis EDGE Miles]]'
 target: '[[Air India Maharaja Club]]'
-ratio: '1:1'
+ratio: '1:2'
 ratio_give: 1
-ratio_get: 1
+ratio_get: 2
 transfer_time: 1-2 days
-verified: 2026-01
+verified: 2026-07
+group: B
 ---
 
-**Axis EDGE Miles** transfers to **Air India Maharaja Club** at **1:1**.
+**Axis EDGE Miles** transfers to **Air India Maharaja Club** at **1:2**.
 
-> Successor to the Club Vistara 1:1 route after the merger.
+> Best Maharaja feed in the market.
 
 <!-- generated: edits above this line will be overwritten -->

@@ -253,3 +253,31 @@ airlines:
     country: China
     program: Fortune Wings Club
     hubs: [HAK, PEK]
+  - name: AirAsia
+    iata: AK
+    country: Malaysia
+    program: AirAsia Rewards
+    hubs: [KUL]
+  - name: Icelandair
+    iata: FI
+    country: Iceland
+    program: Icelandair Saga Club
+    hubs: [KEF]
+  - name: TAP Air Portugal
+    iata: TP
+    country: Portugal
+    alliance: Star Alliance
+    program: TAP Miles&Go
+    hubs: [LIS]
+  - name: China Airlines
+    iata: CI
+    country: Taiwan
+    alliance: SkyTeam
+    program: China Airlines Dynasty Flyer
+    hubs: [TPE]
+  - name: Copa Airlines
+    iata: CM
+    country: Panama
+    alliance: Star Alliance
+    program: Copa ConnectMiles
+    hubs: [PTY]

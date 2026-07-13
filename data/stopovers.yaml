@@ -1,0 +1,141 @@
+# Airline stopover programs — node type: stopover-program
+# kind: free-hotel | subsidized-hotel | free-routing | package
+# Researched July 2026 (getstopover.com, airtraveler.club, aerospaceglobalnews.com,
+# upgradedpoints.com, euronews.com). Conditions change seasonally — verify before booking.
+stopovers:
+  - name: Discover Qatar Stopover
+    airline: Qatar Airways
+    hub: DOH
+    kind: subsidized-hotel
+    min_layover: 12 hours
+    max_stay: 4 nights (12-96 hours)
+    cost: 4-5★ hotels from ~$14/night
+    verified: 2026-07
+    notes: >-
+      Booked through Discover Qatar alongside any QR itinerary. The cheapest way to
+      split an India→Europe/US Qsuites award into two trips.
+
+  - name: Turkish Airlines Stopover
+    airline: Turkish Airlines
+    hub: IST
+    kind: free-hotel
+    min_layover: 20 hours
+    max_stay: 1 night (economy) / 2 nights (business), 4-5★ hotels
+    cost: free (register before travel)
+    verified: 2026-07
+    notes: >-
+      Free hotel in Istanbul on eligible international connections; the shorter
+      6-24 hour window instead qualifies for the free Touristanbul city tour.
+
+  - name: Emirates Dubai Connect
+    airline: Emirates
+    hub: DXB
+    kind: free-hotel
+    min_layover: 10 hours
+    max_stay: 24 hours
+    cost: free (hotel + meals + visa + transfers) when no shorter connection exists
+    verified: 2026-07
+    notes: >-
+      Automatic on qualifying long connections; Emirates separately sells multi-night
+      Dubai Stopover packages with visas and transfers bundled.
+
+  - name: Etihad Stopover Abu Dhabi
+    airline: Etihad Airways
+    hub: AUH
+    kind: subsidized-hotel
+    min_layover: 10 hours
+    max_stay: 2 nights
+    cost: from ~$9.99/night token rate
+    verified: 2026-07
+    notes: Complimentary/token-priced hotel nights on eligible itineraries, plus paid extensions.
+
+  - name: Singapore Stopover Holiday
+    airline: Singapore Airlines
+    hub: SIN
+    kind: package
+    min_layover: overnight
+    max_stay: flexible
+    cost: paid package — hotel + transfers + attraction bundle
+    verified: 2026-07
+    notes: >-
+      No free hotel, but the package bundles unlimited attraction entry; pairs
+      naturally with the free stopover on KrisFlyer round-trip Saver awards.
+
+  - name: Icelandair Stopover
+    airline: Icelandair
+    hub: KEF
+    kind: free-routing
+    min_layover: 1 day
+    max_stay: 7 days
+    cost: no extra airfare (hotel self-paid)
+    verified: 2026-07
+    notes: Up to a week in Iceland on any transatlantic itinerary at no fare penalty.
+
+  - name: TAP Portugal Stopover
+    airline: TAP Air Portugal
+    hub: LIS
+    kind: free-routing
+    min_layover: 1 day
+    max_stay: 10 days
+    cost: no extra airfare + partner discounts
+    verified: 2026-07
+    notes: One of the longest free-routing windows — up to 10 days in Lisbon or Porto.
+
+  - name: Ethiopian Airlines Stopover
+    airline: Ethiopian Airlines
+    hub: ADD
+    kind: free-hotel
+    min_layover: 8 hours
+    max_stay: 1-2 nights
+    cost: free transit hotel on long connections
+    verified: 2026-07
+    notes: Free hotel + cheap transit visa makes Addis a viable break on Africa awards.
+
+  - name: Saudia Stopover Program
+    airline: Saudia
+    hub: JED
+    kind: free-hotel
+    min_layover: 12 hours
+    max_stay: 96 hours
+    cost: free hotel + free stopover visa
+    verified: 2026-07
+    notes: Includes a free 96-hour stopover visa for Saudi Arabia on international connections.
+
+  - name: Gulf Air Stopover
+    airline: Gulf Air
+    hub: BAH
+    kind: free-hotel
+    min_layover: 22 hours
+    max_stay: 1-2 nights
+    cost: free or heavily discounted hotel
+    verified: 2026-07
+
+  - name: Oman Air Stopover
+    airline: Oman Air
+    hub: MCT
+    kind: subsidized-hotel
+    min_layover: 24 hours
+    max_stay: flexible
+    cost: hotel packages from ~$25/night
+    verified: 2026-07
+    notes: Muscat stopover packages bookable with any WY itinerary.
+
+  - name: Copa Panama Stopover
+    airline: Copa Airlines
+    hub: PTY
+    kind: free-routing
+    min_layover: 1 day
+    max_stay: 7 days
+    cost: no extra airfare
+    verified: 2026-07
+    notes: Free Panama City stopover on itineraries through the Hub of the Americas.
+
+  - name: China Airlines Taipei Stopover
+    airline: China Airlines
+    hub: TPE
+    kind: subsidized-hotel
+    min_layover: 8 hours
+    max_stay: 1-2 nights
+    cost: discounted transit hotels; free half-day Taipei tours on select connections
+    verified: 2026-07
+    notes: Conditions vary by fare class — check at booking.

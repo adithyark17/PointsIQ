@@ -17,6 +17,7 @@ lat: 2.7456
 lon: 101.71
 hub_for:
 - '[[Malaysia Airlines]]'
+- '[[AirAsia]]'
 ---
 
 Kuala Lumpur International Airport — Sepang, Malaysia.

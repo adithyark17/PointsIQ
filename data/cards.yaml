@@ -141,7 +141,10 @@ cards:
     lounge_access: unlimited + guest visits
     status: active
     verified: 2026-01
-    notes: Post-2023 devaluations cut base earn and added heavy exclusions; milestone + transfers still carry it.
+    notes: >-
+      Post-2023 devaluations cut base earn and added heavy exclusions; the April 2026
+      partner cull (Qatar/Marriott/Accor out) hit it again. Milestone + remaining
+      transfers still carry it.
 
   - name: Axis Atlas
     bank: Axis Bank

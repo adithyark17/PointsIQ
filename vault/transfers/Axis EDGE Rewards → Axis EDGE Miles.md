@@ -13,6 +13,6 @@ verified: 2026-01
 
 **Axis EDGE Rewards** transfers to **Axis EDGE Miles** at **5:4**.
 
-> Internal conversion — do this before any airline transfer from Magnus/Reserve.
+> Internal conversion for Travel Edge redemptions; partner transfers from Magnus/Reserve run directly at ~5:2.
 
 <!-- generated: edits above this line will be overwritten -->

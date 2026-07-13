@@ -9,6 +9,7 @@ currency_name: MileagePlus miles
 pricing_model: dynamic
 expiry: never
 fuel_surcharges: none
+award_chart: '[[United MileagePlus Observed Pricing]]'
 ---
 
 ## Inbound transfer routes

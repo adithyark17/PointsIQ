@@ -11,6 +11,7 @@ currency_name: Virgin Points
 pricing_model: zone
 expiry: never
 fuel_surcharges: high
+award_chart: '[[Virgin Atlantic Flying Club Chart]]'
 ---
 
 ## Inbound transfer routes

@@ -22,7 +22,7 @@ last_verified: 2026-01
 
 ## Sweet spot: BLR/BOM/DEL → SIN in Business
 
-~30,500 miles one-way in SQ J — reachable as ~30,500 [[Axis EDGE Miles]] (1:1) or ~61,000 [[HDFC Reward Points]] (2:1). Cash fare on this route regularly exceeds ₹60,000, putting realised value well above ₹1.5/point.
+~30,500 miles one-way in SQ J — just ~15,250 [[Axis EDGE Miles]] at the 1:2 ratio, or ~30,500 [[HDFC Reward Points]] at 1:1. Cash fare on this route regularly exceeds ₹60,000, putting realised value well above ₹2/point on Atlas.
 
 ## Sweet spot: Round-trip Saver includes a stopover
 

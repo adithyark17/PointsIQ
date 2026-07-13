@@ -1,0 +1,26 @@
+name: Emirates Skywards Chart
+program: Emirates Skywards
+model: hybrid
+last_verified: 2026-01
+disclaimer: Approximate one-way Saver levels on EK metal from India; heavy YQ applies.
+rows:
+  - route: India → Dubai
+    links: [India, DXB]
+    economy: 13000
+    business: 32000
+  - route: India → Europe (via DXB)
+    links: [BOM, United Kingdom, LHR]
+    economy: 42500
+    business: 92000
+    first: 136000
+  - route: India → USA (via DXB)
+    links: [DEL, United States, JFK]
+    economy: 55000
+    business: 132500
+    first: 200000
+sweet_spots:
+  - title: The A380 First experience
+    body: >-
+      Skywards is rarely the cheapest, but it's the only path to EK First/shower-spa —
+      and [[Emirates Dubai Connect]] adds a free hotel on long connections. Budget for
+      high [[Fuel Surcharge (YQ)]].

@@ -9,6 +9,7 @@ currency_name: Mileage Plan miles
 pricing_model: zone
 expiry: 24 months of inactivity
 fuel_surcharges: low
+award_chart: '[[Alaska Mileage Plan Chart]]'
 ---
 
 Distance/zone hybrid with stopovers on one-ways; strong Asia sweet spots.

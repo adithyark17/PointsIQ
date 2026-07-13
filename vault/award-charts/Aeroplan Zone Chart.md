@@ -19,6 +19,6 @@ last_verified: 2026-01
 
 ## Sweet spot: No-YQ Star Alliance to North America
 
-India→Canada/USA on [[Air India]], [[Lufthansa]] or [[Turkish Airlines]] metal with zero [[Fuel Surcharge (YQ)]], plus a [[Stopover]] for 5,000 points. Reachable from Indian wallets mainly through [[Marriott Bonvoy]] 3:1.
+India→Canada/USA on [[Air India]], [[Lufthansa]] or [[Turkish Airlines]] metal with zero [[Fuel Surcharge (YQ)]], plus a [[Stopover]] for 5,000 points. Reachable from Indian wallets via [[HDFC Reward Points]] at 2:1 (added to SmartBuy) or [[Marriott Bonvoy]] at 3:1.
 
 <!-- generated: edits above this line will be overwritten -->

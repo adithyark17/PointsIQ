@@ -9,6 +9,7 @@ currency_name: Qantas Points
 pricing_model: distance
 expiry: 18 months of inactivity
 fuel_surcharges: high
+award_chart: '[[Qantas Classic Rewards Chart]]'
 ---
 
 ## Inbound transfer routes

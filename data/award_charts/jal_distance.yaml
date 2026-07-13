@@ -1,0 +1,24 @@
+name: JAL Distance Chart
+program: JAL Mileage Bank
+model: distance
+last_verified: 2026-01
+disclaimer: Approximate one-way partner-award levels by total itinerary distance.
+rows:
+  - route: 1,001-2,000 miles
+    links: [BOM, DXB]
+    economy: 12000
+    business: 25000
+  - route: 4,001-6,000 miles (India → Japan)
+    links: [DEL, HND]
+    economy: 23000
+    business: 45000
+  - route: 6,001-8,000 miles (India → Europe)
+    links: [BOM, LHR]
+    economy: 27000
+    business: 55000
+sweet_spots:
+  - title: The quiet oneworld bargain
+    body: >-
+      JAL's partner chart undercuts Avios on many bands and books [[Qatar Airways]] and
+      [[British Airways]] metal. Reach it via [[Marriott Bonvoy]] 3:1 or 1:2 from
+      [[Axis EDGE Miles]] (Group A).

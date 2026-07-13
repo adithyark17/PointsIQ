@@ -15,6 +15,8 @@ size: large_airport
 scheduled_service: true
 lat: 63.985
 lon: -22.6056
+hub_for:
+- '[[Icelandair]]'
 ---
 
 Keflavik International Airport — Reykjavík, Iceland.

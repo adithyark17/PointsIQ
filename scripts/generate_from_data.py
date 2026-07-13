@@ -120,6 +120,8 @@ def gen_transfers(data):
             "transfer_time": t.get("transfer_time", "unknown"),
             "verified": str(t.get("verified", "")),
         }
+        if t.get("group"):
+            fm["group"] = t["group"]
         body = f"**{t['from']}** transfers to **{t['to']}** at **{rs}**."
         if t.get("notes"):
             body += f"\n\n> {t['notes']}"
@@ -241,6 +243,25 @@ def gen_concepts(data):
         emit("concepts", c["name"], fm, body)
 
 
+# ── stopover programs ────────────────────────────────────────────────
+def gen_stopovers(data):
+    for s in data["stopovers"]:
+        fm = {
+            "type": "stopover-program",
+            "tags": ["stopover"],
+            "airline": wikilink(s["airline"]),
+            "hub": wikilink(s["hub"]),
+            "kind": s["kind"],
+            "min_layover": s.get("min_layover", ""),
+            "max_stay": s.get("max_stay", ""),
+            "cost": s.get("cost", ""),
+            "verified": str(s.get("verified", "")),
+        }
+        body = s.get("notes", "")
+        body += "\n\n**Concept:** [[Stopover]]"
+        emit("stopovers", s["name"], fm, body)
+
+
 # ── award charts ─────────────────────────────────────────────────────
 def gen_award_charts():
     for path in sorted((DATA_DIR / "award_charts").glob("*.yaml")):
@@ -277,11 +298,13 @@ def main():
     gen_portals(load_yaml(DATA_DIR / "portals.yaml"))
     gen_transfers(load_yaml(DATA_DIR / "transfers.yaml"))
     gen_concepts(load_yaml(DATA_DIR / "concepts.yaml"))
+    gen_stopovers(load_yaml(DATA_DIR / "stopovers.yaml"))
     gen_award_charts()
 
     removed = []
     for folder in ("banks", "cards", "currencies", "transfers", "portals",
-                   "programs", "airlines", "alliances", "mcc", "award-charts", "concepts"):
+                   "programs", "airlines", "alliances", "mcc", "award-charts",
+                   "concepts", "stopovers"):
         removed += prune_folder(VAULT_DIR / folder, emitted)
 
     print(f"emitted {len(emitted)} notes; pruned {len(removed)} stale notes")

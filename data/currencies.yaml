@@ -14,8 +14,10 @@ currencies:
     expiry: no expiry while account active
     redemption_floor: 1 EDGE Mile ≈ ₹1 via Travel Edge
     notes: >-
-      Earned directly on Atlas (and by converting EDGE Rewards 5:4). The widest 1:1
-      airline partner list of any Indian currency.
+      Earned directly on Atlas. Standard partner ratio is a market-best 1:2
+      (1 EDGE Mile = 2 partner miles) across Group A/B partners with separate annual
+      caps — though the April 2026 devaluation dropped Qatar/Marriott/Accor and added
+      BA/Finnair/Vietnam at an inverted 2:1.
 
   - name: Axis EDGE Rewards
     bank: Axis Bank
@@ -34,7 +36,9 @@ currencies:
     bank: ICICI Bank
     expiry: 3 years
     redemption_floor: ~₹0.25-1.00 depending on card and redemption
-    notes: Emeralde Private Metal unlocked airline/hotel transfers and ₹1 iShop value.
+    notes: >-
+      ₹1/point on iShop flights/hotels is the real ceiling; the only airline transfer
+      is Air India Maharaja Club at 1:1.
 
   - name: SBI Reward Points
     bank: SBI Card

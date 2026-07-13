@@ -92,6 +92,13 @@
       }
     },
     {
+      "query": "path:stopovers",
+      "color": {
+        "a": 1,
+        "rgb": 14718285
+      }
+    },
+    {
       "query": "path:geo",
       "color": {
         "a": 1,

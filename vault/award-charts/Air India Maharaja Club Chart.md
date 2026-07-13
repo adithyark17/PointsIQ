@@ -19,8 +19,8 @@ last_verified: 2026-01
 | India → Europe ([[DEL]], [[LHR]]) | 35,000 | 80,000 | — |
 | India → North America (nonstop) ([[DEL]], [[JFK]], [[YYZ]]) | 50,000 | 115,000 | — |
 
-## Sweet spot: The 1:1 workhorse
+## Sweet spot: Everyone's terminal currency
 
-Maharaja Points are the only terminal currency most Indian banks reach at 1:1 ([[HDFC Reward Points]], [[Axis EDGE Miles]], [[American Express Membership Rewards India]], [[ICICI Reward Points]]) — making Air India nonstops to [[JFK]]/[[YYZ]]/[[LHR]] the highest-floor redemption in the Indian ecosystem. Also bookable across [[Star Alliance]] partners.
+Every major Indian bank reaches Maharaja Points: [[Axis EDGE Miles]] at a market-best 1:2, [[ICICI Reward Points]] and [[HSBC Reward Points]] at 1:1, [[HDFC Reward Points]] and [[American Express Membership Rewards India]] at 2:1 — making Air India nonstops to [[JFK]]/[[YYZ]]/[[LHR]] the highest-floor redemption in the Indian ecosystem. Also bookable across [[Star Alliance]] partners.
 
 <!-- generated: edits above this line will be overwritten -->

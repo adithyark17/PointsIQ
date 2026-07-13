@@ -51,7 +51,7 @@ Airport notes are fully regenerated — annotate their countries or hub airlines
 ## Data model (node types)
 
 `bank · card · currency · transfer · portal · air-program · hotel-program · airline · alliance ·
-mcc-category · award-chart · concept · region · country · airport`
+mcc-category · award-chart · stopover-program · concept · region · country · airport`
 
 Transfer routes are **dedicated edge notes** (e.g. `transfers/Axis EDGE Miles → KrisFlyer.md`)
 carrying ratio, transfer time and a `verified:` date — so the graph shows *named* edges and

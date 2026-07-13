@@ -9,6 +9,7 @@ currency_name: ANA miles
 pricing_model: zone
 expiry: 36 months fixed
 fuel_surcharges: moderate
+award_chart: '[[ANA Round-Trip Chart]]'
 ---
 
 Round-trip-only awards; superb value India → Japan in J.

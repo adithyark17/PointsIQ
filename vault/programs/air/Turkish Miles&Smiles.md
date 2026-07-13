@@ -9,6 +9,7 @@ currency_name: Miles
 pricing_model: zone
 expiry: 36 months
 fuel_surcharges: high
+award_chart: '[[Turkish Miles&Smiles Chart]]'
 ---
 
 Cheap zone chart on paper; taxes/YQ and IT quirks temper it.

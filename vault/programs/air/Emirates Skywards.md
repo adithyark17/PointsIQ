@@ -8,6 +8,7 @@ currency_name: Skywards Miles
 pricing_model: hybrid
 expiry: 36 months (extendable)
 fuel_surcharges: high
+award_chart: '[[Emirates Skywards Chart]]'
 ---
 
 ## Inbound transfer routes

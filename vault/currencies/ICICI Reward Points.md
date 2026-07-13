@@ -7,7 +7,7 @@ expiry: 3 years
 redemption_floor: ~₹0.25-1.00 depending on card and redemption
 ---
 
-Emeralde Private Metal unlocked airline/hotel transfers and ₹1 iShop value.
+₹1/point on iShop flights/hotels is the real ceiling; the only airline transfer is Air India Maharaja Club at 1:1.
 
 ## Transfer partners
 

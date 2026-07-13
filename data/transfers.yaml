@@ -1,72 +1,96 @@
 # Transfer routes — node type: transfer (dedicated edge notes)
 # ratio: [give, get] e.g. [2, 1] = 2 points → 1 mile.
-# Ratios reflect last verification and DRIFT OFTEN — treat `verified` as a freshness stamp.
+# verified: 2026-07 entries were re-checked against July 2026 web sources
+# (pointsmath.com, magnify.club, cardtrail.in, issuer pages); ratios still drift — recheck before moving points.
 transfers:
-  # ── HDFC Reward Points (via SmartBuy; daily/annual caps apply) ──
-  - {from: HDFC Reward Points, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: Singapore Airlines KrisFlyer, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: British Airways Executive Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: Qatar Airways Privilege Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: Flying Blue, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: Cathay (Asia Miles), ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
+  # ── HDFC Reward Points (via SmartBuy; 22 partners; daily/annual caps) ──
+  - {from: HDFC Reward Points, to: Air India Maharaja Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added Feb 2025.}
+  - {from: HDFC Reward Points, to: Singapore Airlines KrisFlyer, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Legacy partner — one of the few 1:1 (100:100) HDFC routes.}
+  - {from: HDFC Reward Points, to: Finnair Plus, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: The Avios trick — Finnair at 1:1 beats BA/Qatar at 2:1, then move Avios sideways.}
+  - {from: HDFC Reward Points, to: British Airways Executive Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: HDFC Reward Points, to: Qatar Airways Privilege Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: HDFC Reward Points, to: Flying Blue, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: HDFC Reward Points, to: Cathay (Asia Miles), ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added 2025 alongside Thai.}
+  - {from: HDFC Reward Points, to: Thai Royal Orchid Plus, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: HDFC Reward Points, to: Aeroplan, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Ratio approximate — confirm on SmartBuy before transferring.}
   - {from: HDFC Reward Points, to: Etihad Guest, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HDFC Reward Points, to: Emirates Skywards, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HDFC Reward Points, to: Turkish Miles&Smiles, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
+  - {from: HDFC Reward Points, to: United MileagePlus, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01,
+     notes: Ratio approximate — confirm on SmartBuy.}
   - {from: HDFC Reward Points, to: ITC Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: Accor ALL, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: HDFC Reward Points, to: IHG One Rewards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
+  - {from: HDFC Reward Points, to: Accor ALL, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: HDFC Reward Points, to: Wyndham Rewards, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Ratio approximate.}
+  - {from: HDFC Reward Points, to: Marriott Bonvoy, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Among HDFC's newest hotel partners (with Radisson). Ratio approximate.}
+  - {from: HDFC Reward Points, to: Radisson Rewards, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Ratio approximate.}
 
-  # ── Axis EDGE Miles (Atlas direct; Magnus/Reserve convert EDGE Rewards 5:4 first) ──
+  # ── Axis (April 2026 program: Group A/B partners, separate annual caps) ──
+  # Atlas (EDGE Miles) standard ratio 1:2; BA/Finnair/Vietnam at 2:1.
+  # Magnus/Reserve transfer EDGE Rewards directly at ~5:2 (5:1 for the new three).
+  # Removed April 2026: Qatar Privilege Club, Marriott Bonvoy, Accor ALL.
   - {from: Axis EDGE Rewards, to: Axis EDGE Miles, ratio: [5, 4], transfer_time: instant, verified: 2026-01,
-     notes: Internal conversion — do this before any airline transfer from Magnus/Reserve.}
-  - {from: Axis EDGE Miles, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01,
-     notes: Successor to the Club Vistara 1:1 route after the merger.}
-  - {from: Axis EDGE Miles, to: Singapore Airlines KrisFlyer, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Qatar Airways Privilege Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Etihad Guest, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Turkish Miles&Smiles, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Thai Royal Orchid Plus, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: United MileagePlus, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Flying Blue, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: SriLankan FlySmiLes, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Ethiopian ShebaMiles, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Vietnam Airlines Lotusmiles, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Malaysia Airlines Enrich, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Marriott Bonvoy, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: ITC Club, ratio: [1, 2], transfer_time: 1-2 days, verified: 2026-01,
-     notes: The rare better-than-1:1 route — 1 EDGE Mile → 2 Green Points.}
-  - {from: Axis EDGE Miles, to: Accor ALL, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: IHG One Rewards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: Axis EDGE Miles, to: Wyndham Rewards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
+     notes: Internal conversion for Travel Edge redemptions; partner transfers from Magnus/Reserve run directly at ~5:2.}
+  - {from: Axis EDGE Miles, to: Etihad Guest, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Ethiopian ShebaMiles, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Finnair Plus, ratio: [2, 1], group: A, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026 at a deliberately weak ratio.}
+  - {from: Axis EDGE Miles, to: British Airways Executive Club, ratio: [2, 1], group: A, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026 replacing Qatar — at 2:1 vs the 1:2 standard, a 4x worse Avios rate.}
+  - {from: Axis EDGE Miles, to: Vietnam Airlines Lotusmiles, ratio: [2, 1], group: A, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026.}
+  - {from: Axis EDGE Miles, to: JAL Mileage Bank, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Singapore Airlines KrisFlyer, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07,
+     notes: The headline route — 1 EDGE Mile = 2 KrisFlyer miles.}
+  - {from: Axis EDGE Miles, to: Thai Royal Orchid Plus, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Turkish Miles&Smiles, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: United MileagePlus, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Wyndham Rewards, ratio: [1, 2], group: A, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Flying Blue, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Air India Maharaja Club, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Best Maharaja feed in the market.}
+  - {from: Axis EDGE Miles, to: AirAsia Rewards, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: IHG One Rewards, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: ITC Club, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Orchid Rewards, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026.}
+  - {from: Axis EDGE Miles, to: Qantas Frequent Flyer, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07}
+  - {from: Axis EDGE Miles, to: Radisson Rewards, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026.}
+  - {from: Axis EDGE Miles, to: SpiceJet SpiceClub, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026.}
+  - {from: Axis EDGE Miles, to: The PostCard Hotel, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026.}
+  - {from: Axis EDGE Miles, to: IndiGo BluChips, ratio: [1, 2], group: B, transfer_time: 1-2 days, verified: 2026-07,
+     notes: Added April 2026 — first bank feed into IndiGo's program.}
 
-  # ── Amex Membership Rewards India ──
-  - {from: American Express Membership Rewards India, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: American Express Membership Rewards India, to: British Airways Executive Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: American Express Membership Rewards India, to: Flying Blue, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: American Express Membership Rewards India, to: Emirates Skywards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: American Express Membership Rewards India, to: Marriott Bonvoy, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
-  - {from: American Express Membership Rewards India, to: Hilton Honors, ratio: [1, 2], transfer_time: 1-2 days, verified: 2026-01}
+  # ── Amex Membership Rewards India (airlines 2:1, unlike Amex US) ──
+  - {from: American Express Membership Rewards India, to: Air India Maharaja Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: American Express Membership Rewards India, to: Singapore Airlines KrisFlyer, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: American Express Membership Rewards India, to: British Airways Executive Club, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: American Express Membership Rewards India, to: Flying Blue, ratio: [2, 1], transfer_time: 1-2 days, verified: 2026-07}
+  - {from: American Express Membership Rewards India, to: Marriott Bonvoy, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: The only 1:1 Amex India route — usually its best value.}
 
-  # ── ICICI Reward Points (Emeralde Private Metal tier, via iShop) ──
-  - {from: ICICI Reward Points, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Singapore Airlines KrisFlyer, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: British Airways Executive Club, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Qatar Airways Privilege Club, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Etihad Guest, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Turkish Miles&Smiles, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Thai Royal Orchid Plus, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Marriott Bonvoy, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: Accor ALL, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
-  - {from: ICICI Reward Points, to: ITC Club, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-01}
+  # ── ICICI Reward Points (Emeralde Private Metal) ──
+  - {from: ICICI Reward Points, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 3-7 days, verified: 2026-07,
+     notes: Air India is ICICI's ONLY airline transfer partner — earlier reports of a wider list never materialised.}
 
-  # ── IDFC FIRST (Mayura/Wealth tier) ──
+  # ── IDFC FIRST (Mayura/Wealth tier; unverified since Jan 2026) ──
   - {from: IDFC FIRST Reward Points, to: Air India Maharaja Club, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: IDFC FIRST Reward Points, to: Singapore Airlines KrisFlyer, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: IDFC FIRST Reward Points, to: Qatar Airways Privilege Club, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: IDFC FIRST Reward Points, to: Etihad Guest, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: IDFC FIRST Reward Points, to: IHG One Rewards, ratio: [2, 1], transfer_time: 3-7 days, verified: 2026-01}
 
-  # ── HSBC Reward Points (Premier / TravelOne) ──
+  # ── HSBC Reward Points (Premier / TravelOne; unverified since Jan 2026) ──
   - {from: HSBC Reward Points, to: Singapore Airlines KrisFlyer, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: British Airways Executive Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: Qatar Airways Privilege Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
@@ -74,12 +98,14 @@ transfers:
   - {from: HSBC Reward Points, to: Etihad Guest, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: Emirates Skywards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: Turkish Miles&Smiles, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
+  - {from: HSBC Reward Points, to: Air India Maharaja Club, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-07,
+     notes: Confirmed as a Maharaja feed bank; ratio approximate.}
   - {from: HSBC Reward Points, to: Accor ALL, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: IHG One Rewards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: Marriott Bonvoy, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
   - {from: HSBC Reward Points, to: Wyndham Rewards, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01}
 
-  # ── Marriott Bonvoy → airlines (3:1, +5,000 mile bonus per 60,000 transferred) ──
+  # ── Marriott Bonvoy → airlines (3:1, +5,000 mile bonus per 60,000) ──
   - {from: Marriott Bonvoy, to: Singapore Airlines KrisFlyer, ratio: [3, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: Marriott Bonvoy, to: British Airways Executive Club, ratio: [3, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: Marriott Bonvoy, to: Qatar Airways Privilege Club, ratio: [3, 1], transfer_time: 3-7 days, verified: 2026-01}
@@ -102,6 +128,17 @@ transfers:
   - {from: Marriott Bonvoy, to: Saudia AlFursan, ratio: [3, 1], transfer_time: 3-7 days, verified: 2026-01}
   - {from: Marriott Bonvoy, to: Malaysia Airlines Enrich, ratio: [3, 1], transfer_time: 3-7 days, verified: 2026-01}
 
+  # ── Other hotel → air bridges ──
+  - {from: World of Hyatt, to: Singapore Airlines KrisFlyer, ratio: [2.5, 1], transfer_time: 3-7 days, verified: 2026-01,
+     notes: Hyatt transfers 2.5:1 to most airlines — rarely good value vs hotel nights.}
+  - {from: World of Hyatt, to: British Airways Executive Club, ratio: [2.5, 1], transfer_time: 3-7 days, verified: 2026-01}
+  - {from: IHG One Rewards, to: Singapore Airlines KrisFlyer, ratio: [5, 1], transfer_time: 3-7 days, verified: 2026-01,
+     notes: 5:1 — almost never worth it; shown for completeness.}
+  - {from: Hilton Honors, to: Flying Club, ratio: [10, 1], transfer_time: 3-7 days, verified: 2026-01,
+     notes: 10:1 — a value trap; redeem for rooms instead.}
+  - {from: Accor ALL, to: Flying Blue, ratio: [1, 1], transfer_time: 1-2 days, verified: 2026-01,
+     notes: One of the only decent hotel→air routes (Accor↔AF-KLM partnership).}
+
   # ── Avios family pooling (free household/combine-avios moves) ──
   - {from: British Airways Executive Club, to: Qatar Airways Privilege Club, ratio: [1, 1], transfer_time: instant, verified: 2026-01,
      notes: Combine-Avios between linked BA and Qatar accounts.}
@@ -109,3 +146,5 @@ transfers:
   - {from: British Airways Executive Club, to: Iberia Plus, ratio: [1, 1], transfer_time: instant, verified: 2026-01}
   - {from: British Airways Executive Club, to: AerClub, ratio: [1, 1], transfer_time: instant, verified: 2026-01}
   - {from: British Airways Executive Club, to: Finnair Plus, ratio: [1, 1], transfer_time: instant, verified: 2026-01}
+  - {from: Finnair Plus, to: British Airways Executive Club, ratio: [1, 1], transfer_time: instant, verified: 2026-07,
+     notes: The second leg of the HDFC Avios trick — land 1:1 in Finnair, move 1:1 to BA/Qatar.}

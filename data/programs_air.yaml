@@ -103,6 +103,7 @@ programs:
     alliance: Star Alliance
     currency_name: MileagePlus miles
     pricing_model: dynamic
+    award_chart: United MileagePlus Observed Pricing
     expiry: never
     fuel_surcharges: none
 
@@ -111,6 +112,7 @@ programs:
     alliance: Star Alliance
     currency_name: Miles
     pricing_model: zone
+    award_chart: Turkish Miles&Smiles Chart
     expiry: 36 months
     fuel_surcharges: high
     notes: Cheap zone chart on paper; taxes/YQ and IT quirks temper it.
@@ -128,6 +130,7 @@ programs:
     alliance: Star Alliance
     currency_name: ANA miles
     pricing_model: zone
+    award_chart: ANA Round-Trip Chart
     expiry: 36 months fixed
     fuel_surcharges: moderate
     notes: Round-trip-only awards; superb value India → Japan in J.
@@ -170,6 +173,7 @@ programs:
     alliance: oneworld
     currency_name: Qantas Points
     pricing_model: distance
+    award_chart: Qantas Classic Rewards Chart
     expiry: 18 months of inactivity
     fuel_surcharges: high
 
@@ -178,6 +182,7 @@ programs:
     alliance: oneworld
     currency_name: JAL miles
     pricing_model: distance
+    award_chart: JAL Distance Chart
     expiry: 36 months fixed
     fuel_surcharges: moderate
     notes: Distance-based partner chart is one of aviation's best-value charts.
@@ -196,6 +201,7 @@ programs:
     alliance: oneworld
     currency_name: Mileage Plan miles
     pricing_model: zone
+    award_chart: Alaska Mileage Plan Chart
     expiry: 24 months of inactivity
     fuel_surcharges: low
     notes: Distance/zone hybrid with stopovers on one-ways; strong Asia sweet spots.
@@ -246,6 +252,7 @@ programs:
     alliance: SkyTeam
     currency_name: Virgin Points
     pricing_model: zone
+    award_chart: Virgin Atlantic Flying Club Chart
     expiry: never
     fuel_surcharges: high
     aliases: [Virgin Atlantic Flying Club]
@@ -278,6 +285,7 @@ programs:
     airline: Emirates
     currency_name: Skywards Miles
     pricing_model: hybrid
+    award_chart: Emirates Skywards Chart
     expiry: 36 months (extendable)
     fuel_surcharges: high
 
@@ -285,6 +293,7 @@ programs:
     airline: Etihad Airways
     currency_name: Etihad Guest Miles
     pricing_model: zone
+    award_chart: Etihad Guest Chart
     expiry: 18 months of inactivity
     fuel_surcharges: moderate
     notes: Well-connected to Indian bank currencies; watch partner-award IT issues.
@@ -309,3 +318,50 @@ programs:
     pricing_model: zone
     expiry: 36 months
     fuel_surcharges: moderate
+
+  - name: AirAsia Rewards
+    airline: AirAsia
+    currency_name: AirAsia points
+    pricing_model: dynamic
+    expiry: 36 months
+    fuel_surcharges: none
+    notes: Revenue-linked LCC program; an Axis Group B partner since 2024.
+
+  - name: SpiceJet SpiceClub
+    airline: SpiceJet
+    currency_name: SC Points
+    pricing_model: dynamic
+    fuel_surcharges: none
+    notes: Domestic LCC program; became an Axis Group B transfer partner in April 2026.
+
+  - name: Icelandair Saga Club
+    airline: Icelandair
+    currency_name: Saga Points
+    pricing_model: dynamic
+    expiry: 36 months
+    fuel_surcharges: low
+    notes: Relevant to Indians mainly via the Iceland stopover on transatlantic itineraries.
+
+  - name: TAP Miles&Go
+    airline: TAP Air Portugal
+    alliance: Star Alliance
+    currency_name: TAP miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: high
+
+  - name: China Airlines Dynasty Flyer
+    airline: China Airlines
+    alliance: SkyTeam
+    currency_name: Dynasty miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Copa ConnectMiles
+    airline: Copa Airlines
+    alliance: Star Alliance
+    currency_name: ConnectMiles
+    pricing_model: zone
+    expiry: 24 months of inactivity
+    fuel_surcharges: none

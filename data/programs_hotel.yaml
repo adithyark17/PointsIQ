@@ -67,3 +67,15 @@ programs:
     currency_name: Choice points
     pricing_model: zone
     expiry: 18 months of inactivity
+
+  - name: Orchid Rewards
+    chain: Royal Orchid Hotels
+    currency_name: Orchid points
+    pricing_model: fixed-value
+    notes: India-native chain program; added as an Axis Group B partner in April 2026.
+
+  - name: The PostCard Hotel
+    chain: The Postcard Hotel
+    currency_name: Postcard credits
+    pricing_model: fixed-value
+    notes: Indian boutique-luxury chain; added as an Axis Group B partner in April 2026.

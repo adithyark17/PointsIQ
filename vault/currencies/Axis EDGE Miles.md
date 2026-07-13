@@ -7,7 +7,7 @@ expiry: no expiry while account active
 redemption_floor: 1 EDGE Mile ≈ ₹1 via Travel Edge
 ---
 
-Earned directly on Atlas (and by converting EDGE Rewards 5:4). The widest 1:1 airline partner list of any Indian currency.
+Earned directly on Atlas. Standard partner ratio is a market-best 1:2 (1 EDGE Mile = 2 partner miles) across Group A/B partners with separate annual caps — though the April 2026 devaluation dropped Qatar/Marriott/Accor and added BA/Finnair/Vietnam at an inverted 2:1.
 
 ## Transfer partners
 

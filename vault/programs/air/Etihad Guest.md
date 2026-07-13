@@ -8,6 +8,7 @@ currency_name: Etihad Guest Miles
 pricing_model: zone
 expiry: 18 months of inactivity
 fuel_surcharges: moderate
+award_chart: '[[Etihad Guest Chart]]'
 ---
 
 Well-connected to Indian bank currencies; watch partner-award IT issues.
