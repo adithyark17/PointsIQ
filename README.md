@@ -19,6 +19,7 @@ MCC: Dining → Card: HDFC Infinia → Currency: HDFC Reward Points
 | `data/` | **Source of truth** — hand-curated YAML: banks, cards, currencies, transfer routes, FFPs, hotel programs, airlines, alliances, MCC categories, portals, award charts, concepts |
 | `scripts/` | Python generators that turn `data/` + the open [OurAirports](https://ourairports.com/data/) dataset into the vault, plus a graph validator |
 | `vault/` | **The Obsidian vault** — open this folder in Obsidian. ~6,400 airport nodes + ~250 countries + the curated rewards core, all wikilinked |
+| `explorer/` | **Standalone graph explorer** — open `explorer/graph.html` in any browser (no install) for an interactive force-directed view of the curated core: search, filter by type, click to walk the graph. Rebuild with `python3 scripts/export_graph.py` |
 
 ## Opening the vault
 
