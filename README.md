@@ -33,6 +33,24 @@ MCC: Dining → Card: HDFC Infinia → Currency: HDFC Reward Points
 
 Start at **[[Home]]** — the map of content.
 
+## The advisor CLI
+
+The first *app* layer on the data — declare your cards and balances, get personalized answers:
+
+```sh
+cp wallet.example.yaml wallet.yaml   # edit with your cards + balances (gitignored)
+
+python3 pointsiq.py swipe dining --amount 20000    # which card to swipe (yours + market best)
+python3 pointsiq.py route --to singapore --cabin business
+                                                   # cheapest way to move YOUR points there,
+                                                   # incl. multi-hop paths (e.g. HDFC → Finnair → BA Avios)
+python3 pointsiq.py sweetspots                     # chart sweet spots flagged by reachability
+python3 pointsiq.py balances                       # wallet summary + every program you can reach
+```
+
+Honest limits: transfer caps, transfer bonuses and live seat availability are not modelled —
+chart prices are theoretical. Every answer traces to `data/` with its `verified` date.
+
 ## Regenerating the vault
 
 The vault is a build artifact. Humans edit `data/*.yaml`; generators write the notes.
