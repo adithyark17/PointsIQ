@@ -1,0 +1,20 @@
+name: ANA Round-Trip Chart
+program: ANA Mileage Club
+model: zone
+last_verified: 2026-01
+disclaimer: ANA prices ROUND-TRIP only; approximate levels India ↔ Japan on NH metal.
+rows:
+  - route: India ⇄ Japan (round-trip)
+    links: [DEL, Japan, HND]
+    economy: 45000
+    business: 85000
+  - route: India ⇄ Japan low-season (round-trip)
+    links: [BOM, NRT]
+    economy: 40000
+    business: 80000
+sweet_spots:
+  - title: India ⇄ Tokyo in J for 85K round-trip
+    body: >-
+      Effectively ~42.5K/direction in ANA Business — exceptional. Fed from Indian
+      wallets only via [[Marriott Bonvoy]] 3:1 (255K Bonvoy round-trip), so bank
+      Bonvoy through the [[HDFC Marriott Bonvoy Card]] or [[American Express Membership Rewards India]].

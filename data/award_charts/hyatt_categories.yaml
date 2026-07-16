@@ -1,0 +1,29 @@
+name: World of Hyatt Category Chart
+program: World of Hyatt
+model: zone
+last_verified: 2026-01
+disclaimer: Standard-night rates by category; off-peak/peak swing ±20%. India properties mostly Cat 1-4.
+rows:
+  - route: Category 1 (e.g. Hyatt Place Hampi)
+    links: [India]
+    economy: 5000
+    business: null
+  - route: Category 2-3 (most Indian city Hyatts)
+    links: [DEL, BLR]
+    economy: 9000
+    business: null
+  - route: Category 4 (Grand Hyatt Goa peak season)
+    links: [GOI]
+    economy: 15000
+    business: null
+  - route: Category 7-8 (Park Hyatt Paris tier)
+    links: [CDG]
+    economy: 35000
+    business: null
+sweet_spots:
+  - title: The last real hotel chart
+    body: >-
+      Hyatt kept published categories while [[Marriott Bonvoy]] and [[Hilton Honors]]
+      went dynamic — Indian Category 1-2 properties at 3,500-9,000 points routinely
+      clear ₹2/point. The catch: no Indian bank feeds Hyatt — it's earn-on-stay or
+      US-issued cards only.

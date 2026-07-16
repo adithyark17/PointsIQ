@@ -1,0 +1,27 @@
+name: Asia Miles Distance Chart
+program: Cathay (Asia Miles)
+model: distance
+last_verified: 2026-01
+disclaimer: Approximate one-way standard levels on CX metal; verify on cathaypacific.com.
+rows:
+  - route: Ultra-short · up to 750 miles
+    links: [HKG]
+    economy: 7500
+    business: 16000
+  - route: Short · 751-2,750 miles (e.g. BOM→HKG is Medium)
+    links: [DEL, BKK]
+    economy: 10000
+    business: 25000
+  - route: Medium · 2,751-5,000 miles (India → HKG)
+    links: [BOM, HKG]
+    economy: 22000
+    business: 45000
+  - route: Long · 5,001-7,500 miles (India → Australia via HKG)
+    links: [DEL, SYD]
+    economy: 30000
+    business: 65000
+sweet_spots:
+  - title: India → HKG/Japan in J
+    body: >-
+      ~45,000 Asia Miles one-way in Cathay J — 90,000 [[HDFC Reward Points]] at 2:1 or
+      135,000 [[Marriott Bonvoy]] at 3:1. Best booked as round-trip for the stopover rules.

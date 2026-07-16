@@ -1,0 +1,20 @@
+name: Virgin Atlantic Flying Club Chart
+program: Flying Club
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way partner levels; Virgin's partner charts vary by carrier.
+rows:
+  - route: India → London on VS metal
+    links: [DEL, LHR]
+    economy: 20000
+    business: 47500
+  - route: India → USA via LHR
+    links: [BOM, United States, JFK]
+    economy: 35000
+    business: 75000
+sweet_spots:
+  - title: Cheap DEL/BOM → LHR in Upper Class
+    body: >-
+      ~47,500 points one-way in Upper Class is a strong rate — but watch the heavy
+      [[Fuel Surcharge (YQ)]]. Feed via [[Marriott Bonvoy]] 3:1 or [[Hilton Honors]]
+      10:1 (last resort).

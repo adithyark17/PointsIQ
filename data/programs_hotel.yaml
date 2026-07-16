@@ -1,0 +1,81 @@
+# Hotel loyalty programs — node type: hotel-program
+programs:
+  - name: Marriott Bonvoy
+    chain: Marriott International
+    currency_name: Bonvoy Points
+    pricing_model: dynamic
+    expiry: 24 months of inactivity
+    notes: >-
+      The bridge currency: transfers to 35+ airlines at 3:1 with a 5,000-mile bonus per
+      60,000 transferred — the only route from hotel points into many FFPs.
+
+  - name: Accor ALL
+    chain: Accor
+    currency_name: ALL Reward Points
+    pricing_model: fixed-value
+    expiry: 12 months of inactivity
+    notes: 2,000 points = €40 off any stay; effectively a cash-value currency.
+
+  - name: IHG One Rewards
+    chain: IHG Hotels & Resorts
+    currency_name: IHG points
+    pricing_model: dynamic
+    expiry: 12 months of inactivity
+
+  - name: Hilton Honors
+    chain: Hilton
+    currency_name: Honors Points
+    pricing_model: dynamic
+    expiry: 24 months of inactivity
+
+  - name: World of Hyatt
+    chain: Hyatt
+    currency_name: World of Hyatt points
+    pricing_model: zone
+    expiry: 24 months of inactivity
+    notes: Published award chart survives; consistently the highest cpp hotel currency.
+
+  - name: Wyndham Rewards
+    chain: Wyndham
+    currency_name: Wyndham points
+    pricing_model: fixed
+    expiry: 48 months
+    notes: Flat 7.5k/15k/30k per night; strong for Indian leisure properties.
+
+  - name: ITC Club
+    chain: ITC Hotels
+    currency_name: Club ITC Green Points
+    pricing_model: fixed-value
+    expiry: 36 months
+    notes: India-native luxury program; Green Points redeem ~₹1 each at ITC properties.
+
+  - name: Taj NeuPass
+    chain: IHCL (Taj Hotels)
+    currency_name: NeuCoins
+    pricing_model: fixed-value
+    expiry: 12 months
+    notes: Tata Neu-integrated; NeuCoins ≈ ₹1 across the Tata ecosystem including Taj stays.
+
+  - name: Radisson Rewards
+    chain: Radisson Hotel Group
+    currency_name: Radisson points
+    pricing_model: zone
+    expiry: 24 months of inactivity
+
+  - name: Choice Privileges
+    chain: Choice Hotels
+    currency_name: Choice points
+    pricing_model: zone
+    expiry: 18 months of inactivity
+
+  - name: Orchid Rewards
+    chain: Royal Orchid Hotels
+    currency_name: Orchid points
+    pricing_model: fixed-value
+    notes: India-native chain program; added as an Axis Group B partner in April 2026.
+
+  - name: The PostCard Hotel
+    chain: The Postcard Hotel
+    currency_name: Postcard credits
+    pricing_model: fixed-value
+    notes: Indian boutique-luxury chain; added as an Axis Group B partner in April 2026.

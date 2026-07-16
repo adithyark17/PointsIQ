@@ -1,0 +1,25 @@
+name: Qatar Avios Chart
+program: Qatar Airways Privilege Club
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way Avios levels on QR metal from Indian gateways; verify on qatarairways.com.
+rows:
+  - route: India → Doha
+    links: [India, DOH]
+    economy: 12500
+    business: 21750
+  - route: India → Europe (via DOH)
+    links: [India, United Kingdom, LHR]
+    economy: 30000
+    business: 70000
+  - route: India → USA East (via DOH)
+    links: [India, United States, JFK]
+    economy: 40000
+    business: 95000
+sweet_spots:
+  - title: Qsuites westbound
+    body: >-
+      India→Europe in Qsuites for ~70,000 Avios one-way. Axis dropped Qatar as a
+      partner in April 2026, so feed it 1:1 from [[HSBC Reward Points]], 1:1 via the
+      [[Finnair Plus]] trick from [[HDFC Reward Points]], or pool from
+      [[British Airways Executive Club]] via Combine Avios.

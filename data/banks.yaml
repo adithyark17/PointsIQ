@@ -1,0 +1,31 @@
+# Card issuers — node type: bank
+banks:
+  - name: HDFC Bank
+    country: India
+    notes: Largest Indian card issuer; SmartBuy portal; Infinia/Diners Club Black at the top.
+  - name: Axis Bank
+    country: India
+    notes: EDGE Rewards/EDGE Miles ecosystem; the widest airline transfer-partner list in India.
+  - name: American Express India
+    country: India
+    notes: Membership Rewards; charge cards; Reward Multiplier portal.
+  - name: ICICI Bank
+    country: India
+    notes: iShop portal; Emeralde Private Metal opened airline transfers in 2023.
+  - name: SBI Card
+    country: India
+    notes: Largest pure-play card issuer; rewards mostly closed-loop (no airline transfers on core cards).
+  - name: IDFC FIRST Bank
+    country: India
+    notes: Newer premium push (Wealth, Mayura) with a small transfer-partner list.
+  - name: Kotak Mahindra Bank
+    country: India
+  - name: HSBC India
+    country: India
+    notes: Premier and TravelOne brought a mid-size transfer-partner list to India.
+  - name: IndusInd Bank
+    country: India
+  - name: Yes Bank
+    country: India
+  - name: Federal Bank
+    country: India

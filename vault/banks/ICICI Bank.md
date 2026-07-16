@@ -1,0 +1,18 @@
+---
+type: bank
+tags:
+- bank
+country: '[[India]]'
+---
+
+iShop portal; Emeralde Private Metal opened airline transfers in 2023.
+
+## Cards
+
+```dataview
+TABLE currency, annual_fee_inr AS "Fee ₹", reward_rate_pct AS "Rate %", status
+FROM "cards" WHERE bank = this.file.link
+SORT annual_fee_inr DESC
+```
+
+<!-- generated: edits above this line will be overwritten -->

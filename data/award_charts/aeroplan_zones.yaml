@@ -1,0 +1,25 @@
+name: Aeroplan Zone Chart
+program: Aeroplan
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way partner ranges (distance bands within zone pairs); no fuel surcharges.
+rows:
+  - route: India → Europe (Atlantic zone)
+    links: [India, Germany, FRA]
+    economy: 40000
+    business: 60000
+  - route: India → North America (Atlantic, 6,001-8,000mi band)
+    links: [DEL, Canada, YYZ]
+    economy: 51000
+    business: 85000
+  - route: India → East Asia (Pacific zone)
+    links: [DEL, Japan, HND]
+    economy: 38000
+    business: 55000
+sweet_spots:
+  - title: No-YQ Star Alliance to North America
+    body: >-
+      India→Canada/USA on [[Air India]], [[Lufthansa]] or [[Turkish Airlines]] metal with
+      zero [[Fuel Surcharge (YQ)]], plus a [[Stopover]] for 5,000 points. Reachable from
+      Indian wallets via [[HDFC Reward Points]] at 2:1 (added to SmartBuy) or
+      [[Marriott Bonvoy]] at 3:1.

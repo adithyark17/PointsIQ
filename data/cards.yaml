@@ -1,0 +1,403 @@
+# Credit cards — node type: card
+# earn rates and fees drift; verified dates mark last review of each entry.
+cards:
+  # ── HDFC ─────────────────────────────────────────────────────────
+  - name: HDFC Infinia
+    bank: HDFC Bank
+    currency: HDFC Reward Points
+    network: [Visa Infinite, Mastercard World]
+    annual_fee_inr: 12500
+    fee_waiver_spend_inr: 1000000
+    earn_unit: 5 RP / ₹150
+    reward_rate_pct: 3.3
+    invite_only: true
+    accelerated_earn:
+      - category: Travel - Airlines
+        via: SmartBuy
+        multiplier: 5
+        note: 10x points on select SmartBuy categories; 15,000 bonus RP/month cap
+      - category: Travel - Hotels
+        via: SmartBuy
+        multiplier: 10
+        note: hotel bookings via SmartBuy
+    excluded_categories: [Fuel, Rent, Government & Tax]
+    lounge_access: unlimited (Priority Pass primary + add-on)
+    status: active
+    verified: 2026-01
+
+  - name: HDFC Diners Club Black
+    bank: HDFC Bank
+    currency: HDFC Reward Points
+    network: [Diners Club]
+    annual_fee_inr: 10000
+    fee_waiver_spend_inr: 500000
+    earn_unit: 5 RP / ₹150
+    reward_rate_pct: 3.3
+    accelerated_earn:
+      - category: Travel - Airlines
+        via: SmartBuy
+        multiplier: 10
+        note: up to 10x via SmartBuy; monthly caps
+    excluded_categories: [Fuel, Rent]
+    milestones:
+      - spend_inr: 80000
+        period: monthly
+        benefit: monthly milestone vouchers (cult.fit / BookMyShow / TataCliQ)
+    lounge_access: unlimited
+    status: active
+    verified: 2026-01
+
+  - name: HDFC Diners Club Black Metal
+    bank: HDFC Bank
+    currency: HDFC Reward Points
+    network: [Diners Club]
+    annual_fee_inr: 10000
+    fee_waiver_spend_inr: 800000
+    earn_unit: 5 RP / ₹150
+    reward_rate_pct: 3.3
+    milestones:
+      - spend_inr: 150000
+        period: quarterly
+        benefit: 10,000 bonus RP per quarter
+    lounge_access: unlimited
+    status: active
+    verified: 2026-01
+
+  - name: HDFC Regalia Gold
+    bank: HDFC Bank
+    currency: HDFC Reward Points
+    network: [Visa Signature, Mastercard World]
+    annual_fee_inr: 2500
+    fee_waiver_spend_inr: 400000
+    earn_unit: 4 RP / ₹150
+    reward_rate_pct: 1.3
+    accelerated_earn:
+      - category: Online Shopping
+        multiplier: 5
+        note: 5x at Nykaa/Myntra/Marks & Spencer/Reliance Digital
+    milestones:
+      - spend_inr: 150000
+        period: quarterly
+        benefit: ₹1,500 voucher
+      - spend_inr: 500000
+        period: yearly
+        benefit: flight vouchers worth ₹5,000
+    lounge_access: 12 domestic + Priority Pass on spend
+    status: active
+    verified: 2026-01
+
+  - name: HDFC Millennia
+    bank: HDFC Bank
+    currency: HDFC Reward Points
+    network: [Visa, Mastercard]
+    annual_fee_inr: 1000
+    fee_waiver_spend_inr: 100000
+    earn_unit: 5% cashback (partner merchants) / 1% otherwise
+    reward_rate_pct: 1.0
+    accelerated_earn:
+      - category: Online Shopping
+        multiplier: 5
+        note: 5% at Amazon/Flipkart/Swiggy/Zomato etc., monthly caps
+    excluded_categories: [Fuel, Rent, Government & Tax]
+    lounge_access: quarterly on spend milestone
+    status: active
+    verified: 2026-01
+
+  - name: HDFC Marriott Bonvoy Card
+    bank: HDFC Bank
+    currency: Marriott Bonvoy
+    network: [Diners Club]
+    annual_fee_inr: 3000
+    earn_unit: 8 Bonvoy points / ₹150 at Marriott; 4/₹150 elsewhere
+    reward_rate_pct: 1.6
+    milestones:
+      - spend_inr: 600000
+        period: yearly
+        benefit: Free Night Award (up to 15,000 points)
+    lounge_access: 12 domestic + 12 international
+    status: active
+    verified: 2026-01
+    notes: India's first hotel co-brand that earns a hotel currency directly — bypasses bank points entirely.
+
+  # ── Axis ─────────────────────────────────────────────────────────
+  - name: Axis Magnus
+    bank: Axis Bank
+    currency: Axis EDGE Rewards
+    network: [Mastercard World]
+    annual_fee_inr: 12500
+    fee_waiver_spend_inr: 2500000
+    earn_unit: 12 ER / ₹200
+    reward_rate_pct: 1.2
+    accelerated_earn:
+      - category: Travel - Airlines
+        via: Axis Travel Edge
+        multiplier: 5
+        note: 60 ER/₹200 on Travel Edge portal (5x), caps apply
+    excluded_categories: [Fuel, Rent, Wallet Loads, Government & Tax, Insurance, Jewellery]
+    milestones:
+      - spend_inr: 150000
+        period: monthly
+        benefit: 25,000 bonus EDGE Rewards (Burgundy variant)
+    lounge_access: unlimited + guest visits
+    status: active
+    verified: 2026-01
+    notes: >-
+      Post-2023 devaluations cut base earn and added heavy exclusions; the April 2026
+      partner cull (Qatar/Marriott/Accor out) hit it again. Milestone + remaining
+      transfers still carry it.
+
+  - name: Axis Atlas
+    bank: Axis Bank
+    currency: Axis EDGE Miles
+    network: [Visa Signature]
+    annual_fee_inr: 5000
+    earn_unit: 2 EM / ₹100 (5 EM/₹100 on travel)
+    reward_rate_pct: 2.0
+    accelerated_earn:
+      - category: Travel - Airlines
+        multiplier: 2.5
+        note: 5 EDGE Miles/₹100 on airlines/hotels direct + Travel Edge, up to ₹2L/month
+    excluded_categories: [Fuel, Rent, Wallet Loads, Insurance, Government & Tax]
+    milestones:
+      - spend_inr: 300000
+        period: yearly
+        benefit: 2,500 EDGE Miles (tier gate → Silver)
+      - spend_inr: 750000
+        period: yearly
+        benefit: additional 5,000 EDGE Miles (Gold tier)
+      - spend_inr: 1500000
+        period: yearly
+        benefit: additional 10,000 EDGE Miles (Platinum tier)
+    lounge_access: tiered (8-18 visits by tier)
+    status: active
+    verified: 2026-01
+    notes: The purest miles card in India — travel-first earn, tier milestones, EDGE Miles direct.
+
+  - name: Axis Reserve
+    bank: Axis Bank
+    currency: Axis EDGE Rewards
+    network: [Visa Infinite]
+    annual_fee_inr: 50000
+    earn_unit: 15 ER / ₹200
+    reward_rate_pct: 1.5
+    excluded_categories: [Fuel, Rent, Wallet Loads, Government & Tax]
+    lounge_access: unlimited (ITA + Priority Pass)
+    status: active
+    verified: 2026-01
+
+  - name: Axis Vistara Infinite
+    bank: Axis Bank
+    currency: Axis EDGE Rewards
+    network: [Visa Infinite]
+    annual_fee_inr: 10000
+    earn_unit: 6 CV Points / ₹200
+    status: legacy
+    verified: 2026-01
+    notes: >-
+      Co-brand orphaned by the Vistara-Air India merger; CV Points earn migrated to
+      Maharaja Points equivalents. Kept as a legacy node for historical ledgers.
+
+  # ── American Express ─────────────────────────────────────────────
+  - name: Amex Platinum Charge
+    bank: American Express India
+    currency: American Express Membership Rewards India
+    network: [American Express]
+    annual_fee_inr: 60000
+    earn_unit: 1 MR / ₹40 (3 MR/₹40 foreign spend)
+    reward_rate_pct: 0.6
+    excluded_categories: [Fuel, Insurance, Utilities]
+    lounge_access: unlimited (Centurion + Priority Pass + Delta SkyClub)
+    status: active
+    verified: 2026-01
+    notes: Value is in Taj/Oberoi/ITC vouchers, hotel elite statuses (Bonvoy/Hilton Gold) and MR transfers, not earn rate.
+
+  - name: Amex Platinum Travel
+    bank: American Express India
+    currency: American Express Membership Rewards India
+    network: [American Express]
+    annual_fee_inr: 5000
+    earn_unit: 1 MR / ₹50
+    reward_rate_pct: 0.5
+    milestones:
+      - spend_inr: 190000
+        period: yearly
+        benefit: 15,000 MR + vouchers
+      - spend_inr: 400000
+        period: yearly
+        benefit: additional 25,000 MR + Taj Stay voucher ₹10,000
+    lounge_access: 8 domestic/year
+    status: active
+    verified: 2026-01
+    notes: The classic Indian milestone machine — nearly all its value sits at the ₹1.9L and ₹4L spend gates.
+
+  - name: Amex Membership Rewards Credit Card
+    bank: American Express India
+    currency: American Express Membership Rewards India
+    aliases: [Amex MRCC]
+    network: [American Express]
+    annual_fee_inr: 4500
+    fee_waiver_spend_inr: 150000
+    earn_unit: 1 MR / ₹50
+    reward_rate_pct: 0.5
+    milestones:
+      - spend_inr: 20000
+        period: monthly
+        benefit: 1,000 bonus MR (4 transactions of ₹1,500 + ₹20K spend variants)
+    status: active
+    verified: 2026-01
+
+  - name: Amex Gold Charge
+    bank: American Express India
+    currency: American Express Membership Rewards India
+    network: [American Express]
+    annual_fee_inr: 4500
+    earn_unit: 1 MR / ₹50
+    reward_rate_pct: 0.5
+    milestones:
+      - spend_inr: 6000
+        period: monthly
+        benefit: 1,000 bonus MR on 6 transactions of ₹1,000+
+    status: active
+    verified: 2026-01
+    notes: The 18K/24K Gold Collection redemptions make this the best MR accumulator per rupee.
+
+  # ── ICICI ────────────────────────────────────────────────────────
+  - name: ICICI Emeralde Private Metal
+    bank: ICICI Bank
+    currency: ICICI Reward Points
+    network: [Mastercard World]
+    annual_fee_inr: 12499
+    fee_waiver_spend_inr: 1000000
+    earn_unit: 6 RP / ₹200
+    reward_rate_pct: 3.0
+    excluded_categories: [Fuel, Rent, Government & Tax]
+    milestones:
+      - spend_inr: 800000
+        period: yearly
+        benefit: EaseMyTrip vouchers ₹6,000
+    lounge_access: unlimited
+    status: active
+    verified: 2026-01
+    notes: ICICI's Infinia answer; unlocked airline/hotel transfers for ICICI points.
+
+  - name: ICICI Sapphiro
+    bank: ICICI Bank
+    currency: ICICI Reward Points
+    network: [Mastercard, American Express]
+    annual_fee_inr: 3500
+    fee_waiver_spend_inr: 600000
+    earn_unit: 2 RP / ₹100
+    reward_rate_pct: 0.5
+    lounge_access: quarterly on spend
+    status: active
+    verified: 2026-01
+
+  # ── SBI Card ─────────────────────────────────────────────────────
+  - name: SBI Card Elite
+    bank: SBI Card
+    currency: SBI Reward Points
+    network: [Visa Signature, Mastercard World]
+    annual_fee_inr: 4999
+    fee_waiver_spend_inr: 1000000
+    earn_unit: 2 RP / ₹100 (5x dining/grocery/dept stores)
+    reward_rate_pct: 0.5
+    accelerated_earn:
+      - category: Dining
+        multiplier: 5
+      - category: Grocery
+        multiplier: 5
+    milestones:
+      - spend_inr: 500000
+        period: yearly
+        benefit: 15,000 bonus RP
+    lounge_access: 8 international (Priority Pass) + 8 domestic
+    status: active
+    verified: 2026-01
+
+  - name: SBI Cashback Card
+    bank: SBI Card
+    currency: SBI Reward Points
+    network: [Visa]
+    annual_fee_inr: 999
+    fee_waiver_spend_inr: 200000
+    earn_unit: 5% cashback online / 1% offline
+    reward_rate_pct: 5.0
+    excluded_categories: [Fuel, Rent, Wallet Loads, Jewellery, Education, Insurance, Utilities]
+    status: active
+    verified: 2026-01
+    notes: Pure cashback (₹5,000/month cap) — the benchmark against which point-earning must justify itself.
+
+  - name: Air India SBI Signature
+    bank: SBI Card
+    currency: SBI Reward Points
+    network: [Visa Signature]
+    annual_fee_inr: 4999
+    earn_unit: 4 RP / ₹100 (30 RP/₹100 on Air India)
+    status: legacy
+    verified: 2026-01
+    notes: Legacy co-brand from the pre-merger program; points converted toward Maharaja-era balances.
+
+  # ── IDFC FIRST ───────────────────────────────────────────────────
+  - name: IDFC FIRST Wealth
+    bank: IDFC FIRST Bank
+    currency: IDFC FIRST Reward Points
+    network: [Visa Infinite]
+    annual_fee_inr: 0
+    earn_unit: 10x above ₹20K monthly spend, 3x below
+    reward_rate_pct: 1.5
+    excluded_categories: [Fuel, Rent, Government & Tax]
+    lounge_access: 4/quarter domestic + international
+    status: active
+    verified: 2026-01
+
+  - name: IDFC FIRST Mayura
+    bank: IDFC FIRST Bank
+    currency: IDFC FIRST Reward Points
+    network: [Visa Infinite]
+    annual_fee_inr: 5999
+    earn_unit: 5 RP / ₹150 (10x on milestones)
+    reward_rate_pct: 1.0
+    milestones:
+      - spend_inr: 100000
+        period: quarterly
+        benefit: bonus points + vouchers
+    lounge_access: unlimited domestic + 4 international/quarter
+    status: active
+    verified: 2026-01
+    notes: IDFC's metal flagship (2024); brought the bank's first airline transfer list.
+
+  # ── HSBC / Kotak / IndusInd ──────────────────────────────────────
+  - name: HSBC Premier
+    bank: HSBC India
+    currency: HSBC Reward Points
+    network: [Mastercard World Elite]
+    annual_fee_inr: 20000
+    earn_unit: 3 RP / ₹100
+    reward_rate_pct: 1.0
+    lounge_access: unlimited (LoungeKey)
+    status: active
+    verified: 2026-01
+    notes: Fee waived for Premier banking clients; ~20 air/hotel partners mostly at 1:1.
+
+  - name: Kotak White Reserve
+    bank: Kotak Mahindra Bank
+    currency: Kotak Reward Points
+    network: [Visa Infinite]
+    annual_fee_inr: 12500
+    fee_waiver_spend_inr: 1200000
+    earn_unit: White Pass value on spend milestones
+    reward_rate_pct: 1.5
+    lounge_access: unlimited + guests
+    status: active
+    verified: 2026-01
+
+  - name: IndusInd Legend
+    bank: IndusInd Bank
+    currency: IndusInd Rewards
+    network: [Visa Signature]
+    annual_fee_inr: 9999
+    earn_unit: 1 RP / ₹100 (2x weekend dining)
+    reward_rate_pct: 0.7
+    status: active
+    verified: 2026-01
+    notes: Lifetime-free variants common; points redeem as cash credit at ₹0.75.

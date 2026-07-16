@@ -1,0 +1,22 @@
+# Airline alliances — node type: alliance
+alliances:
+  - name: Star Alliance
+    founded: 1997
+    notes: >-
+      The largest alliance. Key India relevance: Air India is a member, so Maharaja Club
+      points redeem across the whole network, and Star partners (Singapore Airlines,
+      United, Turkish, Thai, ANA, Ethiopian) all serve Indian gateways.
+
+  - name: oneworld
+    founded: 1999
+    notes: >-
+      British Airways, Qatar Airways, Cathay Pacific, Qantas, JAL, American, Alaska,
+      Malaysia Airlines, SriLankan. Qatar's Doha hub makes oneworld the deepest
+      westbound network from India; Avios (BA/Qatar/Iberia/Aer Lingus/Finnair) is the
+      most India-accessible oneworld currency.
+
+  - name: SkyTeam
+    founded: 2000
+    notes: >-
+      Air France-KLM, Delta, Virgin Atlantic, Vietnam Airlines, Saudia. Flying Blue is
+      the main SkyTeam transfer target for Indian bank currencies.

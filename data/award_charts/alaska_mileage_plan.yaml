@@ -1,0 +1,21 @@
+name: Alaska Mileage Plan Chart
+program: Alaska Mileage Plan
+model: zone
+last_verified: 2026-01
+disclaimer: Approximate one-way partner levels from South Asia; partner-specific charts apply.
+rows:
+  - route: India → USA (via Asia, e.g. on Cathay)
+    links: [DEL, HKG, United States]
+    economy: 42500
+    business: 85000
+    first: 130000
+  - route: India → Asia short (partner)
+    links: [BOM, SIN]
+    economy: 22500
+    business: 47500
+sweet_spots:
+  - title: Free stopover on a one-way
+    body: >-
+      Mileage Plan allows a [[Stopover]] even on one-way awards — BOM→HKG (stop a
+      week)→SFO on [[Cathay Pacific]] metal for one award price. Feed via
+      [[Marriott Bonvoy]] 3:1.

@@ -1,0 +1,367 @@
+# Frequent flyer programs — node type: air-program
+# pricing_model: zone | distance | dynamic | hybrid
+# fuel_surcharges: none | low | moderate | high (typical YQ on own-metal awards)
+programs:
+  - name: Air India Maharaja Club
+    airline: Air India
+    alliance: Star Alliance
+    currency_name: Maharaja Points
+    pricing_model: hybrid
+    expiry: 24 months of inactivity
+    fuel_surcharges: low
+    award_chart: Air India Maharaja Club Chart
+    notes: >-
+      The merged Air India + Vistara program. The only FFP most Indian bank currencies
+      reach at 1:1, and the cheapest Star Alliance redemption channel from India.
+
+  - name: Club Vistara
+    airline: Vistara
+    currency_name: CV Points
+    pricing_model: zone
+    status: merged
+    notes: Merged into Air India Maharaja Club (2024-25); balances converted 1:1.
+
+  - name: IndiGo BluChips
+    airline: IndiGo
+    currency_name: BluChips
+    pricing_model: dynamic
+    fuel_surcharges: none
+    notes: Revenue-linked domestic program; no bank transfer partners yet.
+
+  - name: Singapore Airlines KrisFlyer
+    airline: Singapore Airlines
+    alliance: Star Alliance
+    currency_name: KrisFlyer miles
+    pricing_model: zone
+    expiry: 36 months fixed
+    fuel_surcharges: low
+    award_chart: KrisFlyer Saver Chart
+    notes: >-
+      The premium-cabin benchmark from India: Saver awards on SQ metal (suites/J) are
+      near-impossible to book with anything except KrisFlyer miles. Reachable from
+      almost every Indian transferable currency.
+
+  - name: British Airways Executive Club
+    airline: British Airways
+    alliance: oneworld
+    currency_name: Avios
+    pricing_model: distance
+    expiry: 36 months of inactivity
+    fuel_surcharges: high
+    award_chart: British Airways Avios Distance Chart
+    notes: >-
+      Distance-banded. Sweet from India for short hops (BOM-DXB, DEL-BKK) on partners.
+      Avios pool freely between BA, Qatar, Iberia, Finnair and Aer Lingus accounts.
+
+  - name: Qatar Airways Privilege Club
+    airline: Qatar Airways
+    alliance: oneworld
+    currency_name: Avios
+    pricing_model: zone
+    expiry: 36 months of inactivity
+    fuel_surcharges: moderate
+    award_chart: Qatar Avios Chart
+    notes: >-
+      Uses Avios; best westbound J redemptions from India (Qsuites via DOH). Pool with
+      British Airways Executive Club via Avios household transfers.
+
+  - name: Cathay (Asia Miles)
+    airline: Cathay Pacific
+    alliance: oneworld
+    currency_name: Asia Miles
+    pricing_model: distance
+    expiry: 18 months of inactivity (activity resets)
+    fuel_surcharges: moderate
+    award_chart: Asia Miles Distance Chart
+
+  - name: Flying Blue
+    airline: Air France
+    alliance: SkyTeam
+    currency_name: Flying Blue miles
+    pricing_model: dynamic
+    expiry: 24 months of inactivity
+    fuel_surcharges: moderate
+    award_chart: Flying Blue India Sweet Spots
+    notes: >-
+      Monthly Promo Rewards (25-50% off) regularly include Indian gateways —
+      the cheapest Europe J from India when they hit.
+
+  - name: Aeroplan
+    airline: Air Canada
+    alliance: Star Alliance
+    currency_name: Aeroplan points
+    pricing_model: zone
+    expiry: 18 months of inactivity
+    fuel_surcharges: none
+    award_chart: Aeroplan Zone Chart
+    notes: >-
+      Zone chart with no YQ and generous stopover rules (add a stopover for 5,000 pts).
+      Strong for India → North America on Star partners.
+
+  - name: United MileagePlus
+    airline: United Airlines
+    alliance: Star Alliance
+    currency_name: MileagePlus miles
+    pricing_model: dynamic
+    award_chart: United MileagePlus Observed Pricing
+    expiry: never
+    fuel_surcharges: none
+
+  - name: Turkish Miles&Smiles
+    airline: Turkish Airlines
+    alliance: Star Alliance
+    currency_name: Miles
+    pricing_model: zone
+    award_chart: Turkish Miles&Smiles Chart
+    expiry: 36 months
+    fuel_surcharges: high
+    notes: Cheap zone chart on paper; taxes/YQ and IT quirks temper it.
+
+  - name: Thai Royal Orchid Plus
+    airline: Thai Airways
+    alliance: Star Alliance
+    currency_name: ROP miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: high
+
+  - name: ANA Mileage Club
+    airline: ANA
+    alliance: Star Alliance
+    currency_name: ANA miles
+    pricing_model: zone
+    award_chart: ANA Round-Trip Chart
+    expiry: 36 months fixed
+    fuel_surcharges: moderate
+    notes: Round-trip-only awards; superb value India → Japan in J.
+
+  - name: Miles & More
+    airline: Lufthansa
+    alliance: Star Alliance
+    currency_name: Miles
+    pricing_model: zone
+    expiry: 36 months (waived with card activity)
+    fuel_surcharges: high
+
+  - name: EVA Infinity MileageLands
+    airline: EVA Air
+    alliance: Star Alliance
+    currency_name: EVA miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Ethiopian ShebaMiles
+    airline: Ethiopian Airlines
+    alliance: Star Alliance
+    currency_name: ShebaMiles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Aegean Miles+Bonus
+    airline: Aegean Airlines
+    alliance: Star Alliance
+    currency_name: Miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+    notes: Historically the cheapest Star Alliance status play.
+
+  - name: Qantas Frequent Flyer
+    airline: Qantas
+    alliance: oneworld
+    currency_name: Qantas Points
+    pricing_model: distance
+    award_chart: Qantas Classic Rewards Chart
+    expiry: 18 months of inactivity
+    fuel_surcharges: high
+
+  - name: JAL Mileage Bank
+    airline: Japan Airlines
+    alliance: oneworld
+    currency_name: JAL miles
+    pricing_model: distance
+    award_chart: JAL Distance Chart
+    expiry: 36 months fixed
+    fuel_surcharges: moderate
+    notes: Distance-based partner chart is one of aviation's best-value charts.
+
+  - name: American AAdvantage
+    airline: American Airlines
+    alliance: oneworld
+    currency_name: AAdvantage miles
+    pricing_model: dynamic
+    expiry: 24 months of inactivity
+    fuel_surcharges: none
+    notes: Web Specials + no YQ on most partners; hard to earn from India.
+
+  - name: Alaska Mileage Plan
+    airline: Alaska Airlines
+    alliance: oneworld
+    currency_name: Mileage Plan miles
+    pricing_model: zone
+    award_chart: Alaska Mileage Plan Chart
+    expiry: 24 months of inactivity
+    fuel_surcharges: low
+    notes: Distance/zone hybrid with stopovers on one-ways; strong Asia sweet spots.
+
+  - name: Malaysia Airlines Enrich
+    airline: Malaysia Airlines
+    alliance: oneworld
+    currency_name: Enrich Points
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: SriLankan FlySmiLes
+    airline: SriLankan Airlines
+    alliance: oneworld
+    currency_name: FlySmiLes miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Iberia Plus
+    airline: Iberia
+    alliance: oneworld
+    currency_name: Avios
+    pricing_model: distance
+    expiry: 36 months of inactivity
+    fuel_surcharges: low
+    notes: Same Avios currency as BA/Qatar; lower YQ on many routes.
+
+  - name: Finnair Plus
+    airline: Finnair
+    alliance: oneworld
+    currency_name: Avios
+    pricing_model: distance
+    expiry: 36 months of inactivity
+    fuel_surcharges: moderate
+
+  - name: Oman Air Sindbad
+    airline: Oman Air
+    alliance: oneworld
+    currency_name: Sindbad miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Flying Club
+    airline: Virgin Atlantic
+    alliance: SkyTeam
+    currency_name: Virgin Points
+    pricing_model: zone
+    award_chart: Virgin Atlantic Flying Club Chart
+    expiry: never
+    fuel_surcharges: high
+    aliases: [Virgin Atlantic Flying Club]
+
+  - name: Delta SkyMiles
+    airline: Delta Air Lines
+    alliance: SkyTeam
+    currency_name: SkyMiles
+    pricing_model: dynamic
+    expiry: never
+    fuel_surcharges: none
+
+  - name: Vietnam Airlines Lotusmiles
+    airline: Vietnam Airlines
+    alliance: SkyTeam
+    currency_name: Lotusmiles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Saudia AlFursan
+    airline: Saudia
+    alliance: SkyTeam
+    currency_name: AlFursan miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Emirates Skywards
+    airline: Emirates
+    currency_name: Skywards Miles
+    pricing_model: hybrid
+    award_chart: Emirates Skywards Chart
+    expiry: 36 months (extendable)
+    fuel_surcharges: high
+
+  - name: Etihad Guest
+    airline: Etihad Airways
+    currency_name: Etihad Guest Miles
+    pricing_model: zone
+    award_chart: Etihad Guest Chart
+    expiry: 18 months of inactivity
+    fuel_surcharges: moderate
+    notes: Well-connected to Indian bank currencies; watch partner-award IT issues.
+
+  - name: Gulf Air Falconflyer
+    airline: Gulf Air
+    currency_name: Falconflyer miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: AerClub
+    airline: Aer Lingus
+    currency_name: Avios
+    pricing_model: distance
+    expiry: 36 months of inactivity
+    fuel_surcharges: low
+
+  - name: Fortune Wings Club
+    airline: Hainan Airlines
+    currency_name: Fortune Wings points
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: AirAsia Rewards
+    airline: AirAsia
+    currency_name: AirAsia points
+    pricing_model: dynamic
+    expiry: 36 months
+    fuel_surcharges: none
+    notes: Revenue-linked LCC program; an Axis Group B partner since 2024.
+
+  - name: SpiceJet SpiceClub
+    airline: SpiceJet
+    currency_name: SC Points
+    pricing_model: dynamic
+    fuel_surcharges: none
+    notes: Domestic LCC program; became an Axis Group B transfer partner in April 2026.
+
+  - name: Icelandair Saga Club
+    airline: Icelandair
+    currency_name: Saga Points
+    pricing_model: dynamic
+    expiry: 36 months
+    fuel_surcharges: low
+    notes: Relevant to Indians mainly via the Iceland stopover on transatlantic itineraries.
+
+  - name: TAP Miles&Go
+    airline: TAP Air Portugal
+    alliance: Star Alliance
+    currency_name: TAP miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: high
+
+  - name: China Airlines Dynasty Flyer
+    airline: China Airlines
+    alliance: SkyTeam
+    currency_name: Dynasty miles
+    pricing_model: zone
+    expiry: 36 months
+    fuel_surcharges: moderate
+
+  - name: Copa ConnectMiles
+    airline: Copa Airlines
+    alliance: Star Alliance
+    currency_name: ConnectMiles
+    pricing_model: zone
+    expiry: 24 months of inactivity
+    fuel_surcharges: none

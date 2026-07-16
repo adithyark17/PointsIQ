@@ -1,0 +1,21 @@
+name: Flying Blue India Sweet Spots
+program: Flying Blue
+model: dynamic
+last_verified: 2026-01
+disclaimer: Flying Blue is dynamic — these are typical observed floors, not guarantees.
+rows:
+  - route: India → Europe (floor)
+    links: [India, France, CDG]
+    economy: 25000
+    business: 70000
+  - route: India → Europe (Promo Rewards, typical)
+    links: [BOM, DEL, AMS]
+    economy: 18750
+    business: 52500
+sweet_spots:
+  - title: Promo Rewards months
+    body: >-
+      Monthly Promo Rewards discount specific gateways 25-50%. When BOM/DEL/BLR appear,
+      Europe J drops to ~52,500 miles — feed 1:2 from [[Axis EDGE Miles]] (Group B) or
+      1:1 from [[HSBC Reward Points]] and book inside the promo window. Watch moderate
+      [[Fuel Surcharge (YQ)]].

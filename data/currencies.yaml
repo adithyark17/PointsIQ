@@ -1,0 +1,75 @@
+# Bank reward currencies — node type: currency
+currencies:
+  - name: HDFC Reward Points
+    bank: HDFC Bank
+    expiry: 2 years from earning (3 years on Infinia/DCB)
+    redemption_floor: 1 RP ≈ ₹1 on SmartBuy flights/hotels (Infinia), ₹0.50 as airmiles or cashback
+    notes: >-
+      Value is card-dependent: the same point is worth up to ₹1 on Infinia and far less
+      on mass-market cards. Airline/hotel transfers run through SmartBuy with per-day
+      and per-year caps.
+
+  - name: Axis EDGE Miles
+    bank: Axis Bank
+    expiry: no expiry while account active
+    redemption_floor: 1 EDGE Mile ≈ ₹1 via Travel Edge
+    notes: >-
+      Earned directly on Atlas. Standard partner ratio is a market-best 1:2
+      (1 EDGE Mile = 2 partner miles) across Group A/B partners with separate annual
+      caps — though the April 2026 devaluation dropped Qatar/Marriott/Accor and added
+      BA/Finnair/Vietnam at an inverted 2:1.
+
+  - name: Axis EDGE Rewards
+    bank: Axis Bank
+    expiry: no expiry while account active
+    redemption_floor: ~₹0.20 per point in catalogue; 5:4 into EDGE Miles
+    notes: Earned on Magnus/Reserve and mainstream Axis cards; convert to EDGE Miles before transferring.
+
+  - name: American Express Membership Rewards India
+    bank: American Express India
+    aliases: [Amex MR India, Membership Rewards]
+    expiry: no expiry while card active
+    redemption_floor: ~₹0.25-0.50 catalogue; up to ₹1 via Gold Collection / transfers
+    notes: 18/24K Gold Collection redemptions and airline transfers set the value ceiling.
+
+  - name: ICICI Reward Points
+    bank: ICICI Bank
+    expiry: 3 years
+    redemption_floor: ~₹0.25-1.00 depending on card and redemption
+    notes: >-
+      ₹1/point on iShop flights/hotels is the real ceiling; the only airline transfer
+      is Air India Maharaja Club at 1:1.
+
+  - name: SBI Reward Points
+    bank: SBI Card
+    expiry: 2-3 years by card
+    redemption_floor: ~₹0.25 statement credit
+    notes: Closed-loop — no airline transfer partners on core SBI cards.
+
+  - name: IDFC FIRST Reward Points
+    bank: IDFC FIRST Bank
+    expiry: no expiry (lifetime, card-dependent)
+    redemption_floor: ~₹0.25 catalogue
+    notes: Mayura/Wealth added a small airline transfer list (2024).
+
+  - name: HSBC Reward Points
+    bank: HSBC India
+    expiry: 3 years
+    redemption_floor: ~₹0.25-1.00
+    notes: Premier/TravelOne transfer to ~20 air/hotel partners, mostly 1:1.
+
+  - name: Kotak Reward Points
+    bank: Kotak Mahindra Bank
+    expiry: 2-3 years by card
+    redemption_floor: ~₹0.25
+    notes: No airline transfer partners; White Reserve redeems against travel bookings.
+
+  - name: IndusInd Rewards
+    bank: IndusInd Bank
+    expiry: no expiry on premium cards
+    redemption_floor: ~₹0.35-0.75 (cash credit on Legend/Pinnacle)
+
+  - name: Yes Rewardz
+    bank: Yes Bank
+    expiry: 3 years
+    redemption_floor: ~₹0.25

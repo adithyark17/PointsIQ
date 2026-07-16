@@ -1,0 +1,18 @@
+# Your wallet — copy to wallet.yaml (gitignored) and edit.
+# Card names must match data/cards.yaml; currency/program names match their datasets.
+
+cards:
+  - HDFC Infinia
+  - Axis Atlas
+  - Amex Platinum Travel
+
+# Bank/hotel points you hold
+balances:
+  HDFC Reward Points: 120000
+  Axis EDGE Miles: 45000
+  American Express Membership Rewards India: 30000
+  Marriott Bonvoy: 80000
+
+# Miles already sitting in airline programs
+programs:
+  Singapore Airlines KrisFlyer: 12000
